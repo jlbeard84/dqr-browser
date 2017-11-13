@@ -8,5 +8,15 @@
         "hp": 1,
         "cardType": 1,
         "cardClass": 1
+    },
+    {
+        "id": 2,
+        "enTitle": "She-Slime",
+        "jpTitle": "スライムベス",
+        "cost": 1,
+        "attack": 2,
+        "hp": 1,
+        "cardType": 1,
+        "cardClass": 1
     }
 ]

@@ -1,12 +1,12 @@
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-
-import { DqrbUiModule } from '../core';
-
+import { DqrbUiModule, CardsService } from '../core';
 import * as AppComponents from '../components';
+
 
 @NgModule({
   declarations: [
@@ -16,9 +16,11 @@ import * as AppComponents from '../components';
   imports: [
     BrowserAnimationsModule,
     BrowserModule,
-    DqrbUiModule
+    DqrbUiModule,
+    HttpClientModule
   ],
   providers: [
+    CardsService
   ],
   bootstrap: [
     AppComponent

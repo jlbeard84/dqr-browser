@@ -7,3 +7,6 @@ export { Card } from './models/card.model';
 
 /* Modules */
 export { DqrbUiModule } from './ui/dqrb-ui.module';
+
+/* Services */
+export { CardsService } from './services/cards.service';
