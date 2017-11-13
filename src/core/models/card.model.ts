@@ -1,6 +1,7 @@
 import { CardClass, CardType } from '../';
 
 export class Card {
+    public id: number;
     public enTitle: string;
     public jpTitle: string;
     public enText: string;

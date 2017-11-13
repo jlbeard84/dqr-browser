@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "enTitle": "Slime",
+        "jpTitle": "スライム",
+        "cost": 0,
+        "attack": 1,
+        "hp": 1,
+        "cardType": 1,
+        "cardClass": 1
+    }
+]
