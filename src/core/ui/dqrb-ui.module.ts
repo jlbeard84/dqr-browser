@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 
 import { MatCardModule } from '@angular/material/card';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
     imports: [
-      MatCardModule
+      MatCardModule,
+      MatSidenavModule
     ],
     exports : [
-      MatCardModule
+      MatCardModule,
+      MatSidenavModule
     ]
   })
   export class DqrbUiModule { }

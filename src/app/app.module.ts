@@ -5,9 +5,12 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DqrbUiModule } from '../core/ui/dqrb-ui.module';
 
+import * as AppComponents from '../components';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppComponents.CardsComponent
   ],
   imports: [
     BrowserAnimationsModule,
