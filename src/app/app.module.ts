@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { DqrbUiModule } from '../core/ui/dqrb-ui.module';
 
 @NgModule({
   declarations: [
@@ -10,9 +11,13 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserAnimationsModule,
-    BrowserModule
+    BrowserModule,
+    DqrbUiModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+  ],
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
