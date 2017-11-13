@@ -3,7 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { DqrbUiModule } from '../core/ui/dqrb-ui.module';
+
+import { DqrbUiModule } from '../core';
 
 import * as AppComponents from '../components';
 
