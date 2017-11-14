@@ -11,7 +11,11 @@ import * as AppComponents from '../components';
 @NgModule({
   declarations: [
     AppComponent,
-    AppComponents.CardsComponent
+    AppComponents.CardsComponent,
+    AppComponents.SingleCardComponent
+  ],
+  entryComponents: [
+    AppComponents.SingleCardComponent 
   ],
   imports: [
     BrowserAnimationsModule,

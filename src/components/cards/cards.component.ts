@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog, MatDialogRef } from '@angular/material';
+
 import { Card, CardsService } from '../../core';
+import { SingleCardComponent } from '../single-card/single-card.component';
 
 @Component({
   selector: 'app-cards',
@@ -11,6 +14,7 @@ export class CardsComponent implements OnInit {
     public cards: Card[] = [];
 
     constructor(
+        private dialog: MatDialog,
         private cardsService: CardsService) {
     }
 
@@ -26,5 +30,19 @@ export class CardsComponent implements OnInit {
 
     public getImagePath(card: Card): string {
         return `./assets/cards/${card.id}.png`;
+    }
+
+    public openModal(card: Card): void {
+
+        const dialogRef: MatDialogRef<SingleCardComponent> = this
+            .dialog
+            .open(
+                SingleCardComponent, {
+                width: '100%',
+                height: '100%',
+                data: {
+                    card: card
+                }
+            });
     }
 }
