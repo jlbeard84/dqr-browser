@@ -4,18 +4,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { DqrbUiModule, CardsService } from '../core';
+import { DqrbUiModule, CardsService, CardClassPipe, CardTypePipe } from '../core';
 import * as AppComponents from '../components';
-
+import { CardClass } from '../core/enums/card-class.enum';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppComponents.CardsComponent,
-    AppComponents.SingleCardComponent
+    AppComponents.SingleCardComponent,
+    CardClassPipe,
+    CardTypePipe
   ],
   entryComponents: [
-    AppComponents.SingleCardComponent 
+    AppComponents.SingleCardComponent
   ],
   imports: [
     BrowserAnimationsModule,

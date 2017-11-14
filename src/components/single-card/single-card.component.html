@@ -1,3 +1,13 @@
-<div>
+<mat-toolbar>
     {{card.enTitle}}
+</mat-toolbar>
+<div class="card-data">
+    <mat-list>
+        <mat-list-item>{{card.enTitle}} ({{card.jpTitle}})</mat-list-item>
+        <mat-list-item>Cost: {{card.cost}}</mat-list-item>
+        <mat-list-item>Attack: {{card.attack}}</mat-list-item>
+        <mat-list-item>HP: {{card.hp}}</mat-list-item>
+        <mat-list-item>Type: {{card.cardType | cardType }}</mat-list-item>
+        <mat-list-item>Class: {{card.cardClass | cardClass }}</mat-list-item>
+    </mat-list>
 </div>

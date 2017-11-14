@@ -1,8 +1,9 @@
-import { Component, Inject, Input, OnInit } from '@angular/core';
+import { Component, Inject, Input, OnInit, ViewEncapsulation } from '@angular/core';
 import { Card } from '../../core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 
 @Component({
+  encapsulation: ViewEncapsulation.None,
   selector: 'app-single-card',
   templateUrl: './single-card.component.html',
   styleUrls: ['./single-card.component.scss']
