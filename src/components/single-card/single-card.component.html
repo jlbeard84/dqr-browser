@@ -5,23 +5,34 @@
 <div class="data-container">
 
     <div fxLayout="row" fxLayoutAlign="center center" class="row-example">
-    <div class="card-data">
-        <mat-list>
+        <div class="card-data">
+            <mat-list>
                 <mat-list-item class="name">{{card.enTitle}} ({{card.jpTitle}})</mat-list-item>
                 <mat-list-item>Cost: {{card.cost}}</mat-list-item>
                 <mat-list-item>Attack: {{card.attack}}</mat-list-item>
                 <mat-list-item>HP: {{card.hp}}</mat-list-item>
                 <mat-list-item>Type: {{card.cardType | cardType }}</mat-list-item>
                 <mat-list-item>Class: {{card.cardClass | cardClass }}</mat-list-item>
-        </mat-list>
+            </mat-list>
+        </div>
+        <div>
+            <img class="card-image" src="{{getImagePath(card)}}" alt="{{card.enTitle}}">
+        </div>
+        <div class="card-description">
+            <mat-list>
+                <mat-list-item>
+                    <h3 matLine>Description</h3>
+                    <p matLine>
+                        {{card.enText}}
+                    </p>
+                </mat-list-item>
+                <mat-list-item>
+                    <h3 matLine>説明</h3>
+                    <p matLine>
+                        {{card.jpText}}
+                    </p>
+                </mat-list-item>
+            </mat-list>
+        </div>
     </div>
-    <div>
-        <img class="card-image" src="{{getImagePath(card)}}" alt="{{card.enTitle}}">
-    </div>
-    <div>
-
-    </div>
-    </div>
-
-
 </div>
