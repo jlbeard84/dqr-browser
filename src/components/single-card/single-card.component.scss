@@ -17,4 +17,11 @@
     .card-image {
         max-width: 220px;
     }
+
+    .card-description {
+        span.title {
+            font-weight: bold;
+            display: block;
+        }
+    }
 }
