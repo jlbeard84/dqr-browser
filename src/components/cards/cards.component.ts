@@ -29,7 +29,7 @@ export class CardsComponent implements OnInit {
     }
 
     public getImagePath(card: Card): string {
-        return `./assets/cards/${card.id}.png`;
+        return this.cardsService.getImagePath(card);
     }
 
     public openModal(card: Card): void {

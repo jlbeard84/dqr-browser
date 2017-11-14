@@ -19,4 +19,8 @@ export class CardsService {
             .http
             .get<Card[]>(cardDataPath);
     }
+
+    public getImagePath(card: Card): string {
+        return `./assets/cards/${card.id}.png`;
+    }
 }

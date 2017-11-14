@@ -18,5 +18,18 @@
         "hp": 1,
         "cardType": 1,
         "cardClass": 1
+    },
+    {
+        "id": 3,
+        "enTitle": "Dracky",
+        "jpTitle": "ドラキー",
+        "cost": 1,
+        "attack": 2,
+        "hp": 1,
+        "cardType": 1,
+        "cardClass": 1,
+        "cardSkills": [1],
+        "enText": "Precise",
+        "jpText": "ねらい撃ち"
     }
 ]

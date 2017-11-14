@@ -2,6 +2,19 @@
     padding:0;
 }
 
-.card-data {
+.data-container {
+
     padding:30px;
+
+    .card-data {
+        padding-right:2em;
+
+        .name {
+            font-weight: bold;
+        }
+    }
+    
+    .card-image {
+        max-width: 220px;
+    }
 }

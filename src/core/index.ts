@@ -1,5 +1,6 @@
 /* Enums */
 export { CardClass } from './enums/card-class.enum';
+export { CardSkill } from './enums/card-skill.enum';
 export { CardType } from './enums/card-type.enum';
 
 /* Models */

@@ -1,4 +1,4 @@
-import { CardClass, CardType } from '../';
+import { CardClass, CardSkill, CardType } from '../';
 
 export class Card {
     public id: number;
@@ -11,4 +11,5 @@ export class Card {
     public hp?: number;
     public cardType: CardType;
     public cardClass: CardClass;
+    public cardSkills: CardSkill[] = [];
 }

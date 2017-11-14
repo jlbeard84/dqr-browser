@@ -1,6 +1,7 @@
-import { Component, Inject, Input, OnInit, ViewEncapsulation } from '@angular/core';
-import { Card } from '../../core';
+import { Component, Inject, ViewEncapsulation } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+
+import { Card, CardsService } from '../../core';
 
 @Component({
   encapsulation: ViewEncapsulation.None,
@@ -8,23 +9,22 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
   templateUrl: './single-card.component.html',
   styleUrls: ['./single-card.component.scss']
 })
-export class SingleCardComponent implements OnInit {
-    public title = 'Card';
+export class SingleCardComponent {
 
-    @Input()
+    public title = 'Card';
     public card: Card;
 
     constructor(
         public dialogRef: MatDialogRef<SingleCardComponent>,
-        @Inject(MAT_DIALOG_DATA) public data: any) {
+        @Inject(MAT_DIALOG_DATA) public data: any,
+        private cardsService: CardsService) {
 
         if (data && data.card) {
             this.card = data.card as Card;
         }
     }
 
-    public ngOnInit(): void {
-
-        // do something
+    public getImagePath(card: Card): string {
+        return this.cardsService.getImagePath(card);
     }
 }
