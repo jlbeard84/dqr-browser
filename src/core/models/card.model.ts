@@ -12,4 +12,6 @@ export class Card {
     public cardType: CardType;
     public cardClass: CardClass;
     public cardSkills: CardSkill[] = [];
+    public family: string;
+    public rarity: number;
 }
