@@ -5,6 +5,7 @@ export { CardType } from './enums/card-type.enum';
 
 /* Models */
 export { Card } from './models/card.model';
+export { KeyValuePair } from './models/key-value-pair.model';
 
 /* Modules */
 export { DqrbUiModule } from './ui/dqrb-ui.module';
@@ -15,3 +16,4 @@ export { CardTypePipe } from './pipes/card-type.pipe';
 
 /* Services */
 export { CardsService } from './services/cards.service';
+export { DeckService } from './services/deck.service';

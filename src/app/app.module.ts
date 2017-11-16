@@ -3,10 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
-import { DqrbUiModule, CardsService, CardClassPipe, CardTypePipe } from '../core';
 import * as AppComponents from '../components';
-import { CardClass } from '../core/enums/card-class.enum';
+import { AppComponent } from './app.component';
+
+import {
+  DqrbUiModule,
+  CardsService,
+  CardClass,
+  CardClassPipe,
+  CardTypePipe,
+  DeckService
+} from '../core';
 
 @NgModule({
   declarations: [
@@ -27,7 +34,8 @@ import { CardClass } from '../core/enums/card-class.enum';
     HttpClientModule
   ],
   providers: [
-    CardsService
+    CardsService,
+    DeckService
   ],
   bootstrap: [
     AppComponent
