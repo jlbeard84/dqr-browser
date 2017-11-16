@@ -1,8 +1,7 @@
 <div>
     <mat-card *ngFor="let card of cards" class="card-summary" (click)="openModal(card)">
         <mat-card-header>
-          <mat-card-title>{{card.enTitle}}</mat-card-title>
-          <mat-card-subtitle>{{card.jpTitle}}</mat-card-subtitle>
+          <mat-card-title class="card-title">{{card.enTitle}}<br/>{{card.jpTitle}}</mat-card-title>
         </mat-card-header>
         <img mat-card-image src="{{getImagePath(card)}}" alt="{{card.enTitle}}">
     </mat-card>
