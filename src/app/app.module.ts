@@ -12,6 +12,7 @@ import { CardClass } from '../core/enums/card-class.enum';
   declarations: [
     AppComponent,
     AppComponents.CardsComponent,
+    AppComponents.HeaderComponent,
     AppComponents.SingleCardComponent,
     CardClassPipe,
     CardTypePipe
