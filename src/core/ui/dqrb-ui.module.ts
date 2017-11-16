@@ -10,6 +10,8 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 @NgModule({
     imports: [
       MatCardModule,
@@ -19,7 +21,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
       MatListModule,
       MatTooltipModule,
       MatButtonModule,
-      FlexLayoutModule
+      FlexLayoutModule,
+      AngularFontAwesomeModule
     ],
     exports : [
       MatCardModule,
@@ -29,7 +32,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
       MatListModule,
       MatTooltipModule,
       MatButtonModule,
-      FlexLayoutModule
+      FlexLayoutModule,
+      AngularFontAwesomeModule
     ]
   })
   export class DqrbUiModule { }

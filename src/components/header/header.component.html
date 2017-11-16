@@ -4,8 +4,12 @@
             <h2 class="headline">DQR Card Browser</h2>
         </div>
         
-        <div class="toolbar-right" *ngIf="deckCardCount > 0">
-            <button mat-mini-fab>{{deckCardCount}}</button>
+        <div class="toolbar-right">
+            <button mat-mini-fab *ngIf="deckCardCount > 0">{{deckCardCount}}</button>
+            <button mat-mini-fab>
+                <fa name="question"></fa>
+            </button>
         </div>
+
     </div>
 </mat-toolbar>
