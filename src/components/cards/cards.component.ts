@@ -32,6 +32,10 @@ export class CardsComponent implements OnInit {
         return this.cardsService.getImagePath(card);
     }
 
+    public addToDeck(card: Card): void {
+        console.log('Adding to deck');
+    }
+
     public openModal(card: Card): void {
 
         const dialogRef: MatDialogRef<SingleCardComponent> = this
