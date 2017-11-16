@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog, MatDialogRef } from '@angular/material';
 
-import { Card, CardsService } from '../../core';
+import { Card, CardsService, DeckService } from '../../core';
 import { SingleCardComponent } from '../single-card/single-card.component';
 
 @Component({
@@ -15,7 +15,8 @@ export class CardsComponent implements OnInit {
 
     constructor(
         private dialog: MatDialog,
-        private cardsService: CardsService) {
+        private cardsService: CardsService,
+        private deckService: DeckService) {
     }
 
     public ngOnInit(): void {
@@ -33,7 +34,7 @@ export class CardsComponent implements OnInit {
     }
 
     public addToDeck(card: Card): void {
-        console.log('Adding to deck');
+        this.deckService.addCard(card);
     }
 
     public openModal(card: Card): void {
