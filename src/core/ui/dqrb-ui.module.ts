@@ -5,6 +5,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -15,6 +16,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
       MatDialogModule,
       MatToolbarModule,
       MatListModule,
+      MatTooltipModule,
       FlexLayoutModule
     ],
     exports : [
@@ -23,6 +25,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
       MatDialogModule,
       MatToolbarModule,
       MatListModule,
+      MatTooltipModule,
       FlexLayoutModule
     ]
   })
