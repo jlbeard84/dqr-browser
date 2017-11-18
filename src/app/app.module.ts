@@ -21,11 +21,13 @@ import {
     AppComponents.CardsComponent,
     AppComponents.HeaderComponent,
     AppComponents.SingleCardComponent,
+    AppComponents.DeckBrowserComponent,
     CardClassPipe,
     CardTypePipe
   ],
   entryComponents: [
-    AppComponents.SingleCardComponent
+    AppComponents.SingleCardComponent,
+    AppComponents.DeckBrowserComponent
   ],
   imports: [
     BrowserAnimationsModule,

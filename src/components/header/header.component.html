@@ -5,7 +5,7 @@
         </div>
         
         <div class="toolbar-right">
-            <button mat-mini-fab *ngIf="deckCardCount > 0">{{deckCardCount}}</button>
+            <button mat-mini-fab *ngIf="deckCardCount > 0" (click)="openDeck()">{{deckCardCount}}</button>
             <button mat-mini-fab>
                 <fa name="question"></fa>
             </button>

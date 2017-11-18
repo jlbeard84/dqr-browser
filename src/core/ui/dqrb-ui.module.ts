@@ -7,6 +7,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTableModule } from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -21,6 +23,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
       MatListModule,
       MatTooltipModule,
       MatButtonModule,
+      MatTableModule,
+      MatInputModule,
       FlexLayoutModule,
       AngularFontAwesomeModule
     ],
@@ -32,6 +36,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
       MatListModule,
       MatTooltipModule,
       MatButtonModule,
+      MatTableModule,
+      MatInputModule,
       FlexLayoutModule,
       AngularFontAwesomeModule
     ]
