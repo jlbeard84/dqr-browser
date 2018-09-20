@@ -1,0 +1,69 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{displayTitle}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+
+    <ion-grid>
+
+        <ion-row>
+            <ion-col
+                col-12
+                col-md-8>
+                <ion-searchbar
+                    [showCancelButton]="true"
+                    (ionInput)="onFilterCards($event)"
+                    (ionCancel)="onResetFilter()">
+                </ion-searchbar>
+            </ion-col>
+            <ion-col
+                col-12
+                col-md-4>
+                
+                <ion-item>
+                    <ion-label>Show Images</ion-label>
+                    <ion-toggle
+                        [(ngModel)]="showImages">
+                    </ion-toggle>
+                </ion-item>
+
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col 
+                col-12
+                col-sm-6
+                col-md-4
+                col-lg-2
+                col-xl-2
+                *ngFor="let card of cards">
+                <ion-card class="dqr-card">
+                    <ion-item class="card-title">
+                        <h2 class="en-title">{{card.enTitle}}</h2>
+                        <p class="jp-title">{{card.jpTitle}}</p>
+                    </ion-item>
+
+                    <div class="card-image" *ngIf="showImages">
+                        <img 
+                            [src]="getImagePath(card)" 
+                            [alt]="card.enTitle"/>
+                    </div>
+
+                    <ion-card-content>
+
+                    </ion-card-content>
+
+
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

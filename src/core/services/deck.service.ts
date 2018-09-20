@@ -1,17 +1,17 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
 
-import { Card } from '../';
+import { DQRCard } from '../models';
 
 @Injectable()
 export class DeckService {
 
-    public deck: Card[] = [];
+    public deck: DQRCard[] = [];
 
     private deckUpdatedSource = new Subject<number>();
     public deckUpdated$ = this.deckUpdatedSource.asObservable();
 
-    public addCard(card: Card) {
+    public addCard(card: DQRCard) {
         this.deck.push(card);
         this.deckUpdatedSource.next(this.deck.length);
     }

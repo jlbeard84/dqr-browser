@@ -1,46 +1,42 @@
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
+import { ErrorHandler, NgModule } from '@angular/core';
+import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { StatusBar } from '@ionic-native/status-bar';
 import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
 
-import * as AppComponents from '../components';
-import { AppComponent } from './app.component';
+import { DQRApp } from './app.component';
+import { Pipes, Services } from "../core";
+import * as Pages from "../pages";
 
-import {
-  DqrbUiModule,
-  CardsService,
-  CardClass,
-  CardClassPipe,
-  CardTypePipe,
-  DeckService
-} from '../core';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AppComponents.CardsComponent,
-    AppComponents.HeaderComponent,
-    AppComponents.SingleCardComponent,
-    AppComponents.DeckBrowserComponent,
-    CardClassPipe,
-    CardTypePipe
-  ],
-  entryComponents: [
-    AppComponents.SingleCardComponent,
-    AppComponents.DeckBrowserComponent
+    DQRApp,
+    Pages.HomePage,
+    Pages.CardBrowserPage,
+    Pipes.CardClassPipe,
+    Pipes.CardTypePipe
   ],
   imports: [
-    BrowserAnimationsModule,
     BrowserModule,
-    DqrbUiModule,
+    IonicModule.forRoot(DQRApp),
     HttpClientModule
   ],
-  providers: [
-    CardsService,
-    DeckService
-  ],
   bootstrap: [
-    AppComponent
+    IonicApp
+  ],
+  entryComponents: [
+    DQRApp,
+    Pages.HomePage,
+    Pages.CardBrowserPage,
+  ],
+  providers: [
+    StatusBar,
+    SplashScreen,
+    Services.CardsService,
+    Services.DeckService,
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
-export class AppModule { }
+export class AppModule {}
