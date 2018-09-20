@@ -33,7 +33,7 @@
         "jpText": "ねらい撃ち"
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Frizz",
         "jpTitle": "メラ",
         "enText": "Deal 1 damage",
@@ -43,7 +43,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Crack",
         "jpTitle": "ヒャド",
         "enText": "Deal 1 damage to a unit. If the opponent has a Block of Ice on the field, deal 3 damage instead",
@@ -53,7 +53,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Frozen Earth*",
         "jpTitle": "凍てつく大地",
         "enText": "Summon 1 Block of Ice on target square",
@@ -63,7 +63,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Staff of Swift Chanting*",
         "jpTitle": "早詠みの杖",
         "enText": "The next Skill card you use this turn costs -2.",
@@ -73,7 +73,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Heal",
         "jpTitle": "ホイミ",
         "enText": "Heal 3 HP",
@@ -83,7 +83,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Seal Staff*",
         "jpTitle": "封印の杖",
         "enText": "Seal 1 unit",
@@ -93,7 +93,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Liberation (Unlock Magic*)",
         "jpTitle": "魔力開放",
         "enText": "Gain 1 MP this turn only",
@@ -103,7 +103,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Feralball",
         "jpTitle": "ファーラット",
         "enText": "Haste",
@@ -115,7 +115,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Firespirit",
         "jpTitle": "メラゴースト",
         "enText": "On Summon: Deal 1 damage",
@@ -128,7 +128,7 @@
     },
 
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Seaslime",
         "jpTitle": "スライムつむり",
         "enText": "Forbearance",
@@ -141,7 +141,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Foo Dog",
         "jpTitle": "あばれこまいぬ",
         "enText": "On Summon: Discard 1 card",
@@ -153,7 +153,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Khalamari Kid",
         "jpTitle": "プチアーノン",
         "enText": "On Attack: Attack +1",
@@ -165,7 +165,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bodkin Archer",
         "jpTitle": "リリパット",
         "enText": "Does not take battle damage when attacking from the back column",
@@ -177,7 +177,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Meowgician",
         "jpTitle": "ねこまどう",
         "enText": "At the end of your turn: Deal 1 damage to a random enemy",
@@ -189,7 +189,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Whipped Scream",
         "jpTitle": "ホイップゴースト",
         "enText": "On Attack: Gain +3 Attack for this turn only",
@@ -201,7 +201,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Ornery Onion",
         "jpTitle": "オニオーン",
         "enText": "Tension Link: Heal your leader by 1",
@@ -213,7 +213,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Frizzard",
         "jpTitle": "メラリザード",
         "enText": "Piercing",
@@ -226,7 +226,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dream monk",
         "jpTitle": "ゆめにゅうどう",
         "enText": "On Summon: Move a unit in the back column to the front column",
@@ -238,7 +238,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Beakon",
         "jpTitle": "おおくちばし",
         "enText": "On Summon: Deal 1 damage to a unit in the back column",
@@ -250,7 +250,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Scarfish",
         "jpTitle": "おばけヒトデ",
         "enText": "On Death: Give a random friendly unit Attack +2",
@@ -262,7 +262,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Teeny Sanguini",
         "jpTitle": "モーモン",
         "cost": 1,
@@ -273,7 +273,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Wax Murderer",
         "jpTitle": "おばけキャンドル",
         "enText": "On Death: Deal 1 damage to a random enemy",
@@ -285,7 +285,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Ghost",
         "jpTitle": "ゴースト",
         "enText": "Stealth",
@@ -298,7 +298,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mischievous Mole",
         "jpTitle": "いたずらもぐら",
         "enText": "Tension Link: Attack +1",
@@ -310,7 +310,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bubble Slime",
         "jpTitle": "バブルスライム",
         "enText": "Poison enemy units damaged by this unit.",
@@ -323,7 +323,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "In Search of a Sword*",
         "jpTitle": "剣を求めて",
         "enText": "Add a random Weapon card from your deck to your hand",
@@ -333,7 +333,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mercurial Thrust",
         "jpTitle": "しっぷう突き",
         "enText": "Deal 1 damage to a unit. If the unit is damaged, deal 3 damage instead.",
@@ -343,7 +343,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Pesky jester",
         "jpTitle": "カメレオンマン",
         "enText": "Whenever your leader attacks, Attack +1",
@@ -355,7 +355,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Whipping Boy (Protect*)",
         "jpTitle": "かばう",
         "enText": "The opponent can only attack your leader until the beginning of your next turn.",
@@ -365,7 +365,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Falcon Slash",
         "jpTitle": "はやぶさ斬り",
         "enText": "Deal 1 damage to a unit twice.",
@@ -375,7 +375,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Poison Needle Strike*",
         "jpTitle": "どくばりの一撃",
         "enText": "Deal 1 damage to a unit. 20% chance of killing it instead.",
@@ -385,7 +385,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Splutterfly",
         "jpTitle": "マジックフライ",
         "enText": "On Death: Add a random Skill card from your deck to your hand.",
@@ -397,7 +397,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Winkster",
         "jpTitle": "みならいあくま",
         "enText": "Deal 1 damage to a random enemy whenever you use a Skill card",
@@ -409,7 +409,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Strength ring",
         "jpTitle": "ちからの指輪",
         "enText": "Increase the attack by 2 of any unit or leader for this turn only",
@@ -419,7 +419,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Jumping jackal",
         "jpTitle": "かくとうパンサー",
         "enText": "On Summon: Add a Martial Arts card to your hand",
@@ -431,7 +431,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Psyche Up",
         "jpTitle": "きあいため",
         "enText": "Raise your leader's tension by 1",
@@ -441,7 +441,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Leg Sweep",
         "jpTitle": "あしばらい",
         "enText": "Attack -2 to a unit. Move it to the other column.",
@@ -451,7 +451,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Buff",
         "jpTitle": "スカラ",
         "enText": "HP+3 to a unit",
@@ -461,7 +461,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Power Snipe",
         "jpTitle": "パワースナイプ",
         "enText": "Deal 2 damage",
@@ -471,7 +471,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Monolog",
         "jpTitle": "ふゆうじゅ",
         "enText": "On Death: Give a random friendly unit HP +1",
@@ -483,7 +483,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Super Seed of Strength",
         "jpTitle": "超ちからのたね",
         "enText": "Give a unit Attack +2 and Piercing",
@@ -493,7 +493,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lickspittle",
         "jpTitle": "つちわらし",
         "enText": "On Summon: At the end of the turn, create a copy of this unit in the same row.",
@@ -505,7 +505,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Fruit of Growth*",
         "jpTitle": "成長の果実",
         "enText": "Give a unit HP+2 and Forbearance",
@@ -515,7 +515,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tarot: Temperance*",
         "jpTitle": "制約のタロット",
         "enText": "Fortune-telling: (1) Summon 2 1/1 Slimes  (2) Draw a card",
@@ -525,7 +525,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Giant moth",
         "jpTitle": "デスファレーナ",
         "enText": "Fortune-telling: (1) Attack +2  (2) HP +2",
@@ -537,7 +537,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Peer into the Future*",
         "jpTitle": "垣間見る未来",
         "enText": "Draw 1 card. Then place 1 card from your hand to the top of your deck.",
@@ -547,7 +547,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dark Offering*",
         "jpTitle": "闇への供物",
         "enText": "Sacrifice a friendly creature. Then, draw a card and increase your maximum MP by 1",
@@ -557,7 +557,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Skeleton",
         "jpTitle": "がいこつ",
         "enText": "On Death: -1/-1 to a random enemy unit",
@@ -570,7 +570,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bag o'laughs",
         "jpTitle": "わらいぶくろ",
         "enText": "On Summon: Draw 1 card",
@@ -582,7 +582,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Metal Slime",
         "jpTitle": "メタルスライム",
         "enText": "Metal Body",
@@ -595,7 +595,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mandrake major",
         "jpTitle": "リザードマン",
         "cost": 2,
@@ -607,7 +607,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Leery lout",
         "jpTitle": "シールドこぞう",
         "enText": "Forbearance",
@@ -619,7 +619,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bunicorn",
         "jpTitle": "いっかくうさぎ",
         "enText": "Haste",
@@ -631,7 +631,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Fluffy",
         "jpTitle": "わたぼう",
         "enText": "The player whose turn is ending draws 1 card",
@@ -643,7 +643,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Capsichum",
         "jpTitle": "くしざしツインズ",
         "enText": "Attack +1 to your leader's weapon",
@@ -655,7 +655,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Flying corpse",
         "jpTitle": "コープスフライ",
         "enText": "When in the front column, Unit cards for both players cost +1 MP to cast",
@@ -668,7 +668,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lunatick",
         "jpTitle": "メーダ",
         "enText": "When in the front column, Skill cards for both players cost +1 MP to cast",
@@ -680,7 +680,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Chimaera",
         "jpTitle": "キメラ",
         "enText": "On Summon: Move a unit to the other column",
@@ -692,7 +692,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Night emperor",
         "jpTitle": "よるのていおう",
         "enText": "Tension Link: Move a random enemy unit in the back column to a random open space in the front column",
@@ -704,7 +704,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Yellow Sickle",
         "jpTitle": "イエローシックル",
         "enText": "When battling a unit in front of it: Attack +2",
@@ -716,7 +716,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hades condor",
         "jpTitle": "ヘルコンドル",
         "enText": "Precise",
@@ -728,7 +728,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Woebergine",
         "jpTitle": "ナスビナーラ",
         "enText": "On Summon: Move a unit to the middle row",
@@ -740,7 +740,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Illerpillar",
         "jpTitle": "どくイモムシ",
         "enText": "On Death: Poison a random enemy unit",
@@ -752,7 +752,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Nappy wrapper",
         "jpTitle": "おむつっこり",
         "enText": "On Summon: Heal 2 HP",
@@ -764,7 +764,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mudraker",
         "jpTitle": "ドロヌーバ",
         "enText": "Stealth",
@@ -776,7 +776,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hammerhood",
         "jpTitle": "おおきづち",
         "enText": "Tension Link: During this turn Attack +2",
@@ -788,7 +788,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lips",
         "jpTitle": "リップス",
         "enText": "Tension -1 to the enemy leader whenever this unit damages the enemy leader",
@@ -800,7 +800,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Satyr",
         "jpTitle": "プークプック",
         "enText": "Attack +1 to a friendly unit in the same row",
@@ -812,7 +812,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bamboo spear soldier",
         "jpTitle": "たけやりへい",
         "enText": "On Summon: Give a unit Attack +2 for this turn",
@@ -824,7 +824,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dancing flame",
         "jpTitle": "フレイム",
         "enText": "When in the front column, Attack +3",
@@ -836,7 +836,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Funghoul",
         "jpTitle": "おばけキノコ",
         "enText": "On Death: Make a random enemy unable to attack for 1 turn",
@@ -848,7 +848,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Orc",
         "jpTitle": "オーク",
         "enText": "Piercing",
@@ -860,7 +860,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Fencing fox",
         "jpTitle": "サーベルきつね",
         "enText": "Units above and below gain Attack +1",
@@ -872,7 +872,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Treeface",
         "jpTitle": "じんめんじゅ",
         "enText": "At the end of your turn, heal this unit by 1 HP",
@@ -884,7 +884,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Sekerleton",
         "jpTitle": "しにがみ",
         "enText": "Can attack twice",
@@ -897,7 +897,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Healslime",
         "jpTitle": "ホイミスライム",
         "enText": "At the end of your turn, heal a different friendly damaged unit or leader by 2 HP",
@@ -910,7 +910,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Shadow",
         "jpTitle": "シャドー",
         "enText": "This unit cannot by targetted by effects",
@@ -922,7 +922,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Platypunk",
         "jpTitle": "ももんじゃ",
         "enText": "On Summon: Gain HP +1 for every enemy unit",
@@ -934,7 +934,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Attack Attacker",
         "jpTitle": "やいばくだき",
         "enText": "Deal 2 damage to a unit then decrease Attack -3",
@@ -944,7 +944,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lantern soldier",
         "jpTitle": "とうろうへい",
         "enText": "On Summon: During this turn, increase your leader's attack by 1",
@@ -956,7 +956,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Steel broadsword",
         "jpTitle": "はがねのつるぎ",
         "cost": 2,
@@ -967,7 +967,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gust Slash",
         "jpTitle": "しんくう斬り",
         "enText": "Deal 2 damage to a unit. Deal 1 damage to units above and below target unit",
@@ -977,7 +977,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hatchet Man",
         "jpTitle": "まじん斬り",
         "enText": "50% chance to deal 7 damage to a unit.",
@@ -987,7 +987,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Erazor blade",
         "jpTitle": "ひとくいサーベル",
         "enText": "Whenever you defeat an enemy follower with your leader, deal 1 damage to the enemy leader.",
@@ -999,7 +999,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mecha-mynah",
         "jpTitle": "メタッピー",
         "enText": "Tension Link: During this turn, your leader takes 3 less damage",
@@ -1011,7 +1011,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bang",
         "jpTitle": "イオ",
         "enText": "Deal 1 damage to all enemy units",
@@ -1021,7 +1021,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Frizzle",
         "jpTitle": "メラミ",
         "enText": "Deal 3 damage",
@@ -1031,7 +1031,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hocus chimaera",
         "jpTitle": "メイジキメラ",
         "enText": "Whenever you use a Skill card, Attack +1",
@@ -1043,7 +1043,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Jinkster",
         "jpTitle": "ひとつめピエロ",
         "enText": "Tension Link: Deal 1 damage to a random enemy unit",
@@ -1055,7 +1055,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Magic Awakening*",
         "jpTitle": "魔力かくせい",
         "enText": "During this turn, increase Skill card damage by 1",
@@ -1065,7 +1065,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Twocus Pocus",
         "jpTitle": "やまびこのさとり",
         "enText": "Add a copy of the next Skill card you use to your hand",
@@ -1075,7 +1075,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Crackle",
         "jpTitle": "ヒャダルコ",
         "enText": "Deal 1 damage to all enemy units in a column besides Block of Ice. If there's a Block of Ice on the opponent's side, deal 3 damage instead.",
@@ -1085,7 +1085,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "War Cry",
         "jpTitle": "おたけび",
         "enText": "Return a unit in the front column back to its owner's hand",
@@ -1095,7 +1095,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Sasquash",
         "jpTitle": "ビッグスロース",
         "enText": "Whenever you use a card that costs 1 or less from hand, buff this unit +1/+1",
@@ -1107,7 +1107,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Knuckle Sandwich",
         "jpTitle": "せいけん突き",
         "enText": "Deal 5 damage to a unit on the front column",
@@ -1117,7 +1117,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Divide and Conquer",
         "jpTitle": "ぶんしんけん",
         "enText": "During this turn, increase your leader's Attack by 1. Deal damage to units above and below attack target",
@@ -1127,7 +1127,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tiger Claw*",
         "jpTitle": "タイガークロウ",
         "enText": "Deal 1 damage to a unit 3 times.",
@@ -1137,7 +1137,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mes Sana",
         "jpTitle": "不撓不屈",
         "enText": "Draw 2 cards. Then discard 1 card",
@@ -1147,7 +1147,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Martial Training*",
         "jpTitle": "武術稽古",
         "enText": "Add 2 Martial Arts cards to your hand",
@@ -1157,7 +1157,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Haardvark",
         "jpTitle": "どくろあらい",
         "enText": "If the attack target is the enemy leader, Attack +2 during this turn.",
@@ -1169,7 +1169,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Short Bow",
         "jpTitle": "ショートボウ",
         "enText": "Precise. Your leader doesn't take battle damage from enemy units.",
@@ -1181,7 +1181,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Zing",
         "jpTitle": "ザオラル",
         "enText": "Revive a random friendly unit that died this game in the target square",
@@ -1191,7 +1191,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Sarcastic Snigger",
         "jpTitle": "皮肉な笑い",
         "enText": "Make a unit's attack equal to its HP",
@@ -1201,7 +1201,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Pink sanguini",
         "jpTitle": "ピンクモーモン",
         "enText": "Heal your leader by how much damage this unit deals",
@@ -1213,7 +1213,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bone bat",
         "jpTitle": "ボーンバット",
         "enText": "On Summon: Deal 2 damage to this unit",
@@ -1226,7 +1226,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Moreheal",
         "jpTitle": "ベホイミ",
         "enText": "Heal 4 HP. Draw a card.",
@@ -1236,7 +1236,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Angelic Protection*",
         "jpTitle": "天使の守り",
         "enText": "Give a unit: \"On Death: Revive this unit\"",
@@ -1246,7 +1246,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Acorn baby",
         "jpTitle": "どんぐりベビー",
         "enText": "Whenever your leader recovers HP, draw a card",
@@ -1258,7 +1258,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mod Rod (Rod of Transformation*)",
         "jpTitle": "变化の杖",
         "enText": "Transform a unit to a random unit that costs 1 less",
@@ -1268,7 +1268,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Scroll of Happiness*",
         "jpTitle": "しあわせの巻物",
         "enText": "Give a unit +1/+1 then add a Tool card to your hand",
@@ -1278,7 +1278,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hell Hornet",
         "jpTitle": "ヘルホーネット",
         "enText": "On Summon: Give a friendly unit Attack +1",
@@ -1290,7 +1290,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Staff of Binding*",
         "jpTitle": "かなしばりの杖",
         "enText": "All enemy units in target column cannot attack for 1 turn.",
@@ -1300,7 +1300,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bamboo Domovoi*",
         "jpTitle": "あおだけ童子",
         "enText": "On Summon: If you have 6+ other cards in hand, Attack +2",
@@ -1312,7 +1312,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Grudgerigar",
         "jpTitle": "クックルー",
         "enText": "On Death: Add 1 Tool card to your hand.",
@@ -1324,7 +1324,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Silver Tarot*",
         "jpTitle": "銀のタロット",
         "enText": "Add a Wheel of Fortune to your hand. Your leader enters Concentration mode. If you are already in Concentration mode, gain Tension +2",
@@ -1334,7 +1334,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Guidance of Wind*",
         "jpTitle": "風の導き",
         "enText": "Deal 3 damage to a unit. View the top card in your deck and decide whether to put it on the bottom of your deck.",
@@ -1344,7 +1344,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lump Shaman",
         "jpTitle": "きめんどうし",
         "enText": "On Summon: View the top 2 cards in your deck. Place 1 on the top of your deck and place the other on the bottom of your deck.",
@@ -1356,7 +1356,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Skipper",
         "jpTitle": "スキッパー",
         "enText": "Tension Link: If the top card in your deck has odd MP cost, add it to your hand.",
@@ -1368,7 +1368,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Approaching Nightmare*",
         "jpTitle": "悪夢の訪れ",
         "enText": "During the next turn, your opponent's Skill cards cost +7",
@@ -1378,7 +1378,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tarot: The Tower*",
         "jpTitle": "塔のタロット",
         "enText": "Fortune-telling: (1) Set a unit's HP to 1. (2) Deal 1 damage to a unit then draw a card.",
@@ -1388,7 +1388,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Puppeteer",
         "jpTitle": "パペットこぞう",
         "enText": "Fortune-telling: (1) Reduce your leader's tension -1. (2) Gain +1/+1",
@@ -1400,7 +1400,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Disruptive Wave",
         "jpTitle": "いてつくはどう",
         "enText": "Seal all enemy units",
@@ -1410,7 +1410,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dark Binding*",
         "jpTitle": "闇の束縛",
         "enText": "-2/-2 to a unit",
@@ -1420,7 +1420,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Imp",
         "jpTitle": "ベビーサタン",
         "enText": "Tension Link: Raise both leaders' maximum MP by 1",
@@ -1430,7 +1430,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Path to Destruction*",
         "jpTitle": "破滅への導き",
         "enText": "Sacrifice a friendly creature. Then draw 2 cards that cost 6+ from your deck.",
@@ -1440,7 +1440,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Devil's Stare*",
         "jpTitle": "魔王の眼光",
         "enText": "Attack -4 to a unit",
@@ -1450,7 +1450,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Stark Raven",
         "jpTitle": "おおがらす",
         "enText": "On Death: Draw 1 card",
@@ -1462,7 +1462,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Arctic dracky",
         "jpTitle": "ツンドラキー",
         "enText": "While your leader's HP is 20 or above, gain Attack +2 and Precise.",
@@ -1474,7 +1474,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mourning Moon",
         "jpTitle": "なげきムーン",
         "enText": "On Summon: If your leader's HP is 15 or below, gain +2/+2 and Piercing",
@@ -1486,7 +1486,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Slime Knight",
         "jpTitle": "スライムナイト",
         "enText": "On Death: Summon a 1/1 Slime on the same square",
@@ -1499,7 +1499,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Cockatier",
         "jpTitle": "バードファイター",
         "cost": 3,
@@ -1510,7 +1510,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Walking Corpse",
         "jpTitle": "くさった死体",
         "enText": "On Summon: Destroy your opponent leader's weapon",
@@ -1523,7 +1523,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Queen Slime",
         "jpTitle": "クイーンスライム",
         "enText": "All other friendly Slime Family units gain +1/+1",
@@ -1536,7 +1536,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Green Dragon",
         "jpTitle": "ドラゴン",
         "enText": "On Death: Add a Princess Pledge to your opponent's hand",
@@ -1549,7 +1549,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Rockbomb",
         "jpTitle": "ばくだん岩",
         "enText": "On Death: Deal 2 damage to all units in the front column",
@@ -1561,7 +1561,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Drackyma",
         "jpTitle": "ドラキーマ",
         "enText": "On Summon: Target 1 unit. It cannot attack next turn",
@@ -1573,7 +1573,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Frogface",
         "jpTitle": "じんめんガエル",
         "enText": "While in the back column, Attack +5",
@@ -1585,7 +1585,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Pan piper",
         "jpTitle": "コサックシープ",
         "enText": "On Summon: Return a friendly unit back to your hand",
@@ -1597,7 +1597,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Catula",
         "jpTitle": "キャットバット",
         "enText": "On Summon: Summon a Catula in front or behind this unit",
@@ -1609,7 +1609,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Clawcerer",
         "jpTitle": "ジャガーメイジ",
         "enText": "On Summon: When your opponent controls 3 or more units, deal 1 damage to all of them",
@@ -1621,7 +1621,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mud mannequin",
         "jpTitle": "どろにんぎょう",
         "enText": "On Summon: Your opponent gets MP-1 next turn",
@@ -1633,7 +1633,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hunter mech",
         "jpTitle": "メタルハンター",
         "enText": "On Summon: Destroy 1 unit that has the Metal Body ability",
@@ -1645,7 +1645,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Icicle Slime",
         "jpTitle": "つららスライム",
         "enText": "On Summon: Reduce the Attack of a unit 1 square in front of it, by 2",
@@ -1658,7 +1658,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bomboulder",
         "jpTitle": "メガザルロック",
         "enText": "On Death: Revive a friendly unit that cost 2 or less",
@@ -1670,7 +1670,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bodkin Bowyer",
         "jpTitle": "アローインプ",
         "enText": "When this unit attacks from the back column, it doesn't take battle damage.",
@@ -1682,7 +1682,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Small Fry",
         "jpTitle": "ドラゴンキッズ",
         "enText": "On Summon: Deal 1 damage to all enemy units in front of this unit",
@@ -1695,7 +1695,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Slime Stack",
         "jpTitle": "スライムタワー",
         "enText": "On Summon: Discard 1 card. Draw 1 card.",
@@ -1708,7 +1708,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Liquid Metal Slime",
         "jpTitle": "はぐれメタル",
         "enText": "Haste. Metal Body",
@@ -1721,7 +1721,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dancing devil",
         "jpTitle": "グリゴンダンス",
         "enText": "Tension Link: Deal 1 damage to all units",
@@ -1733,7 +1733,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Luck-Bringer*",
         "jpTitle": "ふくまねき",
         "enText": "On Death: Draw 1 card.",
@@ -1745,7 +1745,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Damselfly",
         "jpTitle": "フェアリードラゴン",
         "enText": "On Death: Raise your friendly leader's tension by 1",
@@ -1758,7 +1758,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lieutenant mech",
         "jpTitle": "からくりだいみょう",
         "enText": "On Summon: Move a friendly unit to the same row as this unit.",
@@ -1770,7 +1770,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Grim Rider",
         "jpTitle": "ボーンナイト",
         "enText": "Piercing",
@@ -1783,7 +1783,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Calicat Mage*",
         "jpTitle": "ミケまどう",
         "enText": "On Summon: Deal 1 damage to a unit in the back column",
@@ -1795,7 +1795,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Genie Sanguini",
         "jpTitle": "マポレーナ",
         "enText": "On Summon: Give a friendly unit +1/+1",
@@ -1807,7 +1807,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hawk man",
         "jpTitle": "ホークマン",
         "enText": "Precise",
@@ -1819,7 +1819,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Shade",
         "jpTitle": "あやしいかげ",
         "enText": "Stealth",
@@ -1831,7 +1831,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Drag racer",
         "jpTitle": "ダッシュラン",
         "enText": "On Summon: Move a unit in the front column to the back column.",
@@ -1844,7 +1844,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Golem",
         "jpTitle": "ゴーレム",
         "enText": "Forbearance",
@@ -1856,7 +1856,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mimic",
         "jpTitle": "ミミック",
         "enText": "On Death: Your opponent draws 1 card.",
@@ -1868,7 +1868,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lost Soul",
         "jpTitle": "さまようたましい",
         "enText": "On attack: Gain Attack +3 during this turn",
@@ -1880,7 +1880,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Muddy hand",
         "jpTitle": "マドハンド",
         "enText": "On Summon: Summon a Muddy hand above and below this unit.",
@@ -1893,7 +1893,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Clockwork cuckoo",
         "jpTitle": "ガチャコッコ",
         "enText": "Forbearance. On Summon: Gain Attack +1 for every enemy unit",
@@ -1905,7 +1905,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tuskateer",
         "jpTitle": "トドマン",
         "enText": "Whenever you use a Skill card on this card, gain Attack +1",
@@ -1917,7 +1917,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Phantom Fencer",
         "jpTitle": "ぼうれい剣士",
         "enText": "On Death: Friendly units in the same row gain Attack +2",
@@ -1930,7 +1930,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gigaslash",
         "jpTitle": "ギガスラッシュ",
         "enText": "Deal 3 damage to all units in target column",
@@ -1940,7 +1940,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Sword Maintenance*",
         "jpTitle": "剣の手入れ",
         "enText": "Draw a card. Give your equipped weapon +1/+1",
@@ -1950,7 +1950,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Pickayune",
         "jpTitle": "おにこぞう",
         "enText": "At the beginning of your turn, if this unit is in the front column, Evolve this unit into a 7/7 Night clubber",
@@ -1962,7 +1962,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Brownie",
         "jpTitle": "ブラウニー",
         "enText": "Whenever your leader attacks and defeats an enemy unit, gain Attack +2",
@@ -1974,7 +1974,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Sexy Beam",
         "jpTitle": "セクシービーム",
         "enText": "During this turn, take control of an enemy unit with 2 or less attack and give it Haste",
@@ -1984,7 +1984,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lump Mage",
         "jpTitle": "げんじゅつし",
         "enText": "Skill card damage +1",
@@ -1996,7 +1996,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Puff-Puff",
         "jpTitle": "ぱふぱふ",
         "enText": "All enemy units gain: Cannot attack for 1 turn",
@@ -2006,7 +2006,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Breath of Magic*",
         "jpTitle": "魔力の息吹",
         "enText": "Draw 2 cards",
@@ -2016,7 +2016,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Freezing fog",
         "jpTitle": "フロストギズモ",
         "enText": "On Summon: Summon a Block of Ice on your opponent's side of the board",
@@ -2028,7 +2028,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Agility ring",
         "jpTitle": "はやてのリング",
         "enText": "Target unit can attack twice",
@@ -2038,7 +2038,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Robber rabbit",
         "jpTitle": "ぬすっとウサギ",
         "enText": "If the attack target of this unit is the enemy leader, draw a card.",
@@ -2050,7 +2050,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Waspion",
         "jpTitle": "さそりばち",
         "enText": "Haste. Whenever you play a card that costs 1 or less from hand, gain Attack +1 for this turn.",
@@ -2060,7 +2060,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Golden Claws",
         "jpTitle": "おうごんのつめ",
         "enText": "On Summon: Summon a 3/3 Zombie man on your opponent's side of the board.",
@@ -2072,7 +2072,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Roundhouse Kick",
         "jpTitle": "まわしげり",
         "enText": "Deal 4 damage to all enemy units in the front column",
@@ -2082,7 +2082,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Critical Breath*",
         "jpTitle": "かいしんの息吹",
         "enText": "Give a unit Attack +3 and \"On Attack: Add a Martial Arts card to your hand\"",
@@ -2092,7 +2092,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Squid kid",
         "jpTitle": "だいおうキッズ",
         "enText": "On Summon: Your opponent cannot play units on the back column next turn.",
@@ -2104,7 +2104,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gremlin",
         "jpTitle": "グレムリン",
         "enText": "Whenever you heal, gain Attack +1",
@@ -2116,7 +2116,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Killerpillar",
         "jpTitle": "キャタピラー",
         "enText": "On Summon: Give a friendly unit HP+2",
@@ -2128,7 +2128,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Multiheal",
         "jpTitle": "ベホマラー",
         "enText": "Heal all friendly units in target column by 3 HP. Draw a card for every unit healed.",
@@ -2138,7 +2138,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Merchant's Abacus*",
         "jpTitle": "商人のそろばん",
         "enText": "Whenever your leader attacks and defeats an enemy unit, add a Tool card to your hand.",
@@ -2150,7 +2150,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Magical hat",
         "jpTitle": "マジカルハット",
         "enText": "Whenever you use a Skill card on a friendly unit, apply the effect to this unit as well.",
@@ -2162,7 +2162,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Erinn",
         "jpTitle": "リッカ",
         "enText": "Whenever a friendly unit enters the board, draw a card.",
@@ -2175,7 +2175,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Geyzer",
         "jpTitle": "ザバン",
         "enText": "On Summon: Add a Tool card to your hand",
@@ -2187,7 +2187,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Scroll of Oomph*",
         "jpTitle": "バイキルトの巻物",
         "enText": "During this turn, all friendly units in target column gain Attack +2",
@@ -2197,7 +2197,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Staff of Bazoom*",
         "jpTitle": "バシルーラの杖",
         "enText": "Return an enemy unit to the opponent's hand.",
@@ -2207,7 +2207,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tarot: The Star*",
         "jpTitle": "星のタロット",
         "enText": "Fortune-telling: (1) Draw 2 cards. (2) Summon a 3/3 Forbearance Gum Shield",
@@ -2217,7 +2217,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tarot Shoot*",
         "jpTitle": "タロットショット",
         "enText": "Deal 4 damage to a unit.",
@@ -2227,7 +2227,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tarot: The Emperor*",
         "jpTitle": "皇帝のタロット",
         "enText": "Fortune-telling: (1) Give a unit +2/+3 (2) Give a unit Haste and Piercing",
@@ -2237,7 +2237,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Incubus",
         "jpTitle": "インキュバス",
         "enText": "On Summon: If the top card of your deck is odd cost MP gain +1/+1. If it's even, -1/-1",
@@ -2249,7 +2249,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dandelion fluff",
         "jpTitle": "ケセランパセラン",
         "enText": "Whenever effect (1) activates for your fortune-telling effect, heal your leader by 2 HP",
@@ -2261,7 +2261,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dancing devil",
         "jpTitle": "びっくりサタン",
         "enText": "Whenever effect (1) activates for your fortune-telling effect, draw a card.",
@@ -2273,7 +2273,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Alchemist piggy",
         "jpTitle": "アルケミストン",
         "enText": "On Attack: Gain 1 MP for this turn",
@@ -2285,7 +2285,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Witchnail",
         "jpTitle": "ウィッチネイル",
         "enText": "Destroy any unit damaged by this unit",
@@ -2298,7 +2298,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Blade of the Abyss*",
         "jpTitle": "冥府の刃",
         "enText": "Give a unit: \"Destroy any unit damaged by this unit\"",
@@ -2308,7 +2308,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Escudogre",
         "jpTitle": "シールドオーガ",
         "enText": "On Summon: If your leader has 15 or less HP, gain +2/+2 and Forbearance",
@@ -2320,7 +2320,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Priest Knight",
         "jpTitle": "プリーストナイト",
         "enText": "On Summon: Heal 3 HP to a damaged friendly unit or leader.",
@@ -2332,7 +2332,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Great sabrecat",
         "jpTitle": "キラーパンサー",
         "enText": "On Summon: If your opponent has 3 or more units in play, gain Haste.",
@@ -2344,7 +2344,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Viking Soul",
         "jpTitle": "バイキングソウル",
         "enText": "Whenever this unit battles another unit in front of this unit, gain Attack +3 during this turn",
@@ -2357,7 +2357,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Crabid",
         "jpTitle": "ぐんたいガニ",
         "enText": "At the beginning of your turn, summon a Crabid in the same row as this unit.",
@@ -2369,7 +2369,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mandrake marshal",
         "jpTitle": "りゅうき兵",
         "cost": 4,
@@ -2381,7 +2381,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Living statue",
         "jpTitle": "リビングスタチュー",
         "enText": "Forbearance",
@@ -2393,7 +2393,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gem Slime",
         "jpTitle": "ゴールデンスライム",
         "enText": "Metal body. At the beginning of your turn, destroy all other units on board besides this unit. This effect only activates once.",
@@ -2406,7 +2406,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "King Slime",
         "jpTitle": "キングスライム",
         "enText": "Tension Link: Summon a 1/1 Slime",
@@ -2419,7 +2419,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Wight King",
         "jpTitle": "ワイトキング",
         "enText": "When this unit is in the back column, give all Zombie family units in the front column +1/+1",
@@ -2432,7 +2432,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Togrus Maximus",
         "jpTitle": "バリクナジャ",
         "enText": "Whenever this unit attacks and destroys an enemy unit, your leader gains Tension +1.",
@@ -2444,7 +2444,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Kong Head",
         "jpTitle": "コングヘッド",
         "enText": "Friendly units in the same row have Attack +2",
@@ -2456,7 +2456,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Metal Slime Knight",
         "jpTitle": "メタルライダー",
         "enText": "On Death: Summon a Metal Body 1/2 Metal Slime on the same square as this unit.",
@@ -2469,7 +2469,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Silvapithecus",
         "jpTitle": "シルバーデビル",
         "enText": "Precise. Can attack twice",
@@ -2481,7 +2481,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Orc King",
         "jpTitle": "オークキング",
         "enText": "Piercing. On Summon: Heal 2 HP",
@@ -2493,7 +2493,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Samigina",
         "jpTitle": "メッサーラ",
         "enText": "On Summon: Deal 1 damage to all enemy units in target column.",
@@ -2505,7 +2505,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Soul of the Dead*",
         "jpTitle": "亡者のひとだま",
         "enText": "This unit cannot be targeted by Skill card effects.",
@@ -2517,7 +2517,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Wild Chappy",
         "jpTitle": "あらくれチャッピー",
         "enText": "On Summon: Deal 2 damage to a unit.",
@@ -2529,7 +2529,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Shaman",
         "jpTitle": "きとうし",
         "enText": "Skill card damage +1",
@@ -2541,7 +2541,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Ghoul",
         "jpTitle": "グール",
         "enText": "Poison units this unit damages",
@@ -2554,7 +2554,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Blueberry",
         "jpTitle": "ブルベリーノ",
         "enText": "On Summon: Draw a card.",
@@ -2566,7 +2566,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gryphon",
         "jpTitle": "サイレス",
         "enText": "On Summon: Seal a unit.",
@@ -2578,7 +2578,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hughes*",
         "jpTitle": "ヒューザ",
         "enText": "At the end of your turn if you control no other units besides this one, deal damage equal to this unit's attack to a random enemy",
@@ -2591,7 +2591,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Camus",
         "jpTitle": "カミュ",
         "enText": "On Summon: Take a weapon equipped by the opponent leader and add it to your hand.",
@@ -2604,7 +2604,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Miracle Sword",
         "jpTitle": "きせきのつるぎ",
         "enText": "Whenever you deal damage, heal your leader 3 HP",
@@ -2616,7 +2616,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tetsudogre",
         "jpTitle": "たてまじん",
         "enText": "When this unit is in the front column, -1 damage dealt to your leader",
@@ -2628,7 +2628,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Ruff ruffian",
         "jpTitle": "さんぞくウルフ",
         "enText": "Whenever your leader attacks and destroys an enemy unit, deal 2 damage to the enemy leader",
@@ -2640,7 +2640,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Grim Keeper",
         "jpTitle": "じごくのもんばん",
         "enText": "On Summon: Move an enemy unit to in front of this unit.",
@@ -2652,7 +2652,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Kafrizz",
         "jpTitle": "メラゾーマ",
         "enText": "Deal 5 damage",
@@ -2662,7 +2662,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Pink typhoon",
         "jpTitle": "ピンクタイフーン",
         "enText": "Deal 1 damage to all enemy units in target column. They cannot attack next turn.",
@@ -2672,7 +2672,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Ice Bomber",
         "jpTitle": "アイスボンバー",
         "enText": "Precise. On Summon:If there is a Block of Ice on your opponent's side of the board, gain +2/+2",
@@ -2684,7 +2684,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lump wizard",
         "jpTitle": "ドルイド",
         "enText": "On Summon: Put a random Skill card used this game on the top of your deck",
@@ -2696,7 +2696,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Fightgeist",
         "jpTitle": "メトロゴースト",
         "enText": "Gain Attack +1 for every Skill card used this game.",
@@ -2709,7 +2709,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Falcon knife earrings",
         "jpTitle": "キラーピアス",
         "enText": "Can attack twice.",
@@ -2721,7 +2721,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Prickly prankster",
         "jpTitle": "きりさきピエロ",
         "enText": "On Summon: Add a Martial Arts card to your hand for every enemy unit on the board.",
@@ -2733,7 +2733,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lunar chimaera",
         "jpTitle": "ムーンキメラ",
         "enText": "On Summon: Move all enemy units in the back column to the front column.",
@@ -2745,7 +2745,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mysterious Tambourine*",
         "jpTitle": "ふしぎなタンバリン",
         "enText": "Raise your leader's Tension by 1. Give all friendly units Attack +1 and Haste",
@@ -2755,7 +2755,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Holy Light*",
         "jpTitle": "ホーリーライト",
         "enText": "Deal 4 damage to a unit. Heal your leader 2 HP",
@@ -2765,7 +2765,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Little wyvern",
         "jpTitle": "リトルライバーン",
         "enText": "Whenever you heal, deal 2 damage to a random enemy.",
@@ -2778,7 +2778,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Evil bamboo thicket",
         "jpTitle": "エビルチクリン",
         "enText": "Forbearance. On Summon: Give a unit Forbearance",
@@ -2790,7 +2790,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Cutterfly",
         "jpTitle": "イーブルフライ",
         "enText": "On Summon: Set a unit's attack to equal its HP.",
@@ -2802,7 +2802,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Notso Macho",
         "jpTitle": "ダンビラムーチョ",
         "enText": "Tension Link: Give a random friendly unit Attack +1",
@@ -2814,7 +2814,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tree Feller",
         "jpTitle": "ヘルボックル",
         "enText": "On Summon: Summon a 1/1 Stumpkin on a chosen square.",
@@ -2826,7 +2826,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lightning staff",
         "jpTitle": "いかずちの杖",
         "enText": "Deal 4 damage to all enemy units in target row.",
@@ -2836,7 +2836,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hoodie",
         "jpTitle": "ごろつき",
         "enText": "On Summon: Draw a random unit with 1 attack from your deck.",
@@ -2848,7 +2848,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tarot: The Sun*",
         "jpTitle": "太陽のタロット",
         "enText": "Fortune-telling: (1) Deal 2 damage to all enemy units. (2) Heal your leader 7 HP",
@@ -2858,7 +2858,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Belphegor*",
         "jpTitle": "ベルフェゴル",
         "enText": "Gain +1/+1 whenever you use a card with Fortune-telling",
@@ -2870,7 +2870,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Arcana Burst*",
         "jpTitle": "アルカナバースト",
         "enText": "Draw a card. Deal 2 damage to a unit. If the card you draw is odd costed, deal 6 damage instead.",
@@ -2880,7 +2880,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tempest*",
         "jpTitle": "暴風雨",
         "enText": "Deal 5 damage total to random enemies.",
@@ -2890,7 +2890,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Chainine",
         "jpTitle": "ワンダーフール",
         "enText": "On Summon: If the top card of your deck is odd costed, gain +1/+1, if it's even costed, -1/-1 and gain Forbearance.",
@@ -2902,7 +2902,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Demonrider",
         "jpTitle": "エビルドライブ",
         "enText": "Fortune-telling: (1) Draw a card. (2) Attack +3",
@@ -2915,7 +2915,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Fervor of Darkness*",
         "jpTitle": "暗黒の闘気",
         "enText": " +1/+1 to all friendly units",
@@ -2925,7 +2925,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hellfire*",
         "jpTitle": "地獄の業火",
         "enText": "Deal 5 damage to all units in the back columns.",
@@ -2935,7 +2935,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Fires of Judgement*",
         "jpTitle": "裁きの炎",
         "enText": "Destroy a units with 4 or less attack.",
@@ -2945,7 +2945,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Corpse corporal",
         "jpTitle": "リビングデッド",
         "enText": "On Summon: Transform a unit into a 3/3 Mummy boy",
@@ -2958,7 +2958,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Muddy finger",
         "jpTitle": "マッドフィンガー",
         "enText": "On Death: Summon 2 1/1 Muddy hands",
@@ -2971,7 +2971,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Marrow escapee",
         "jpTitle": "ボーンプリズナー",
         "enText": "On Summon: Attack -3 to an enemy unit this turn.",
@@ -2984,7 +2984,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bodkin bloodbow",
         "jpTitle": "レッドアーチャー",
         "enText": "On Summon: If your leader has 20 or more HP, this unit gains Attack +3 and Precise",
@@ -2996,7 +2996,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Axesaurus",
         "jpTitle": "アックスドラゴン",
         "enText": "On Summon: Deal 1 damage to a unit. Then give it \"Takes x2 damage\"",
@@ -3009,7 +3009,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Baalzebub",
         "jpTitle": "バアルゼブブ",
         "enText": "On Summon: Deal 3 damage to the enemy leader.",
@@ -3021,7 +3021,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Stone golem",
         "jpTitle": "ストーンマン",
         "enText": "Forbearance",
@@ -3033,7 +3033,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Pavo",
         "jpTitle": "ラヴィエル",
         "enText": "On Death: Add a non-Pavo Adventurer card that died this game to your hand.",
@@ -3046,7 +3046,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Anlusia*",
         "jpTitle": "アンルシア",
         "enText": "On Summon: Set the attack of an enemy unit with 5 or more attack to 0.",
@@ -3059,7 +3059,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gigantes",
         "jpTitle": "ギガンテス",
         "enText": "On Attack: Gain Attack +3 during this turn.",
@@ -3071,7 +3071,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Metal King Slime",
         "jpTitle": "メタルキング",
         "enText": "Haste. Metal Body. Tension Link: Return to your hand",
@@ -3084,7 +3084,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Restless Armour",
         "jpTitle": "さまようよろい",
         "enText": "On Summon: If summoned in the front column, summon a Heal Slime behind it.",
@@ -3096,7 +3096,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tainted Spiral*",
         "jpTitle": "けがれの渦",
         "enText": "Forbearance. On Death: Poison all units",
@@ -3108,7 +3108,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hacksaurus",
         "jpTitle": "バトルレックス",
         "enText": "On Attack: Your leader gains Attack +2 on their weapon this turn.",
@@ -3121,7 +3121,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Orc chieftain",
         "jpTitle": "ゴールドオーク",
         "enText": "On Summon: Heal your leader by x2 its current tension",
@@ -3133,7 +3133,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Mummy",
         "jpTitle": "マミー",
         "enText": "On Summon: Target enemy unit cannot attack next turn.",
@@ -3146,7 +3146,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hoodlum",
         "jpTitle": "エリミネーター",
         "enText": "When in the front column, draw a card whenever a friendly unit is destroyed.",
@@ -3158,7 +3158,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Living statue",
         "jpTitle": "うごくせきぞう",
         "enText": "Can't attack if there aren't any enemy units in front of this unit.",
@@ -3170,7 +3170,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dark skeleton",
         "jpTitle": "かげのきし",
         "enText": "Stealth",
@@ -3183,7 +3183,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Troll",
         "jpTitle": "トロル",
         "enText": "Takes x2 damage",
@@ -3195,7 +3195,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Knight Abhorrent",
         "jpTitle": "しにがみのきし",
         "enText": "On Summon: Move a unit in the front column to the back column.",
@@ -3207,7 +3207,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Firebird",
         "jpTitle": "ひくいどり",
         "enText": "Piercing.",
@@ -3219,7 +3219,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gigabreak",
         "jpTitle": "ギガブレイク",
         "enText": "Deal 4 damage to all units in target column. If you leader has 15 or less HP, deal 6 damage instead.",
@@ -3229,7 +3229,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Double-Edged Slash",
         "jpTitle": "もろば斬り",
         "enText": "Deal 7 damage to a unit. Deal 3 damage to your leader.",
@@ -3239,7 +3239,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Pankraz",
         "jpTitle": "パパス",
         "enText": "On Death: Equip a 4/2 Pankraz's Sword.",
@@ -3252,7 +3252,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tyrantosaurus",
         "jpTitle": "ドラゴンソルジャー",
         "enText": "Gain Attack +1 for every time your leader attacks this game",
@@ -3265,7 +3265,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bone baron",
         "jpTitle": "しにがみきぞく",
         "enText": "Piercing. On Summon: If your leader has 15 or less HP, gain Haste.",
@@ -3278,7 +3278,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Maribel",
         "jpTitle": "マリベル",
         "enText": "On Summon: The next Skill card you use costs -7 during this turn.",
@@ -3291,7 +3291,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Ice queen",
         "jpTitle": "吹雪の魔女",
         "enText": "On Summon: If there is a Block of Ice on your opponent's side of the board, deal 4 damage to an enemy unit.",
@@ -3303,7 +3303,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Sorcerer",
         "jpTitle": "ようじゅつし",
         "enText": "Whenever you use a Skill card, deal 2 damage to a random enemy.",
@@ -3315,7 +3315,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Night fox",
         "jpTitle": "ナイトフォックス",
         "enText": "Skill cards cost -1",
@@ -3327,7 +3327,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Flashing Fire Fist*",
         "jpTitle": "閃光烈火拳",
         "enText": "Special move. Deal 3 damage to target enemy. Damage increases by 2 for every Skill card played this turn.",
@@ -3337,7 +3337,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Killing Machine",
         "jpTitle": "キラーマシン",
         "enText": "Can attack twice. On Summon: Deal 2 damage to an enemy unit.",
@@ -3349,7 +3349,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Whack",
         "jpTitle": "ザキ",
         "enText": "Destroy target unit.",
@@ -3359,7 +3359,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Fullheal",
         "jpTitle": "ベホマ",
         "enText": "Heal 7 HP. Draw 2 cards.",
@@ -3369,7 +3369,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Kiryl",
         "jpTitle": "クリフト",
         "enText": "On Summon: Destroy units in 2 random enemy squares.",
@@ -3382,7 +3382,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Grand Cross*",
         "jpTitle": "グランドクロス",
         "enText": "Special move. Deal 5 damage to enemies in a cross shape from the middle square in the back column.",
@@ -3392,7 +3392,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Cosmic chimaera",
         "jpTitle": "スターキメラ",
         "enText": "Attack +2 whenever you heal.",
@@ -3404,7 +3404,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Goodybag",
         "jpTitle": "おどるほうせき",
         "enText": "Whenever you use a Skill card on this unit, draw a card.",
@@ -3416,7 +3416,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Fruit of Awakening*",
         "jpTitle": "覚醒の果実",
         "enText": "Give a unit +3/+3. If you have 6 or more cards in hand, this card costs -2",
@@ -3426,7 +3426,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Magical Pot*",
         "jpTitle": "魔法のツボ",
         "enText": "Draw 3 cards.",
@@ -3436,7 +3436,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Float-o-Copier",
         "jpTitle": "マネマネ",
         "enText": "On Summon: Transform into another unit in play.",
@@ -3448,7 +3448,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Riptide",
         "jpTitle": "オーシャンクロー",
         "enText": "Gain +1/+1 whenever you use a Skill card on this unit.",
@@ -3460,7 +3460,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tarot: The Hermit*",
         "jpTitle": "隠者のタロット",
         "enText": "Fortune-telling: (1) Put a copy of target unit into your hand. (2) Transform target unit into a 1/1 Slime",
@@ -3470,7 +3470,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Milly",
         "jpTitle": "ミレーユ",
         "enText": "On Summon and On Attack: View the top 2 cards from your hand. Add 1 to your hand and put the other back to the top of the deck",
@@ -3483,7 +3483,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Ghost tomato*",
         "jpTitle": "おばけトマト",
         "enText": "Fortune-telling: (1) Set an enemy unit's attack to 1. (2) Set an enemy unit's HP to 1.",
@@ -3495,7 +3495,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Call from Hell*",
         "jpTitle": "地獄からの呼び声",
         "enText": "Add 3 random units that died this game to your hand.",
@@ -3505,7 +3505,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Swordmaster Oren",
         "jpTitle": "妖剣士オーレン",
         "enText": "On Summon: Give an enemy unit -2/-2",
@@ -3518,7 +3518,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bloody hand",
         "jpTitle": "ブラッドハンド",
         "enText": "On Summon: Summon a Bloody hand above and below this unit.",
@@ -3531,7 +3531,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lethal armour",
         "jpTitle": "キラーアーマー",
         "cost": 6,
@@ -3542,7 +3542,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Hargon",
         "jpTitle": "ハーゴン",
         "enText": "On Summon: Transform an Adventurer unit into a 1/1 dog.",
@@ -3554,7 +3554,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Orochi",
         "jpTitle": "やまたのおろち",
         "enText": "On Summon: Sacrifice a friendly unit. Gain Attack and HP equal to its cost.",
@@ -3567,7 +3567,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Estark",
         "jpTitle": "エスターク",
         "enText": "If this unit is not damaged, it cannot attack. Instead, at the end of your turn, deal 1 damage to all units and leaders besides this unit.",
@@ -3579,7 +3579,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gaia dragon",
         "jpTitle": "ドラゴンガイア",
         "enText": "On Summon: Until the end of your opponent's next turn, your leader and units do not take damage from enemy Skill damage.",
@@ -3592,7 +3592,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Ruff (Gabo)",
         "jpTitle": "ガボ",
         "enText": "On Summon: Summon a 3/1 Wolf with Haste.",
@@ -3605,7 +3605,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Whackolyte",
         "jpTitle": "じごくのつかい",
         "enText": "At the end of your turn, deal 3 damage to a random enemy.",
@@ -3617,7 +3617,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Djinn Genie",
         "jpTitle": "ランプのまじん",
         "enText": "On Summon: Switch the columns of all enemy units.",
@@ -3629,7 +3629,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Berserker",
         "jpTitle": "バーサーカー",
         "enText": "When this unit is in the front column, Attack +7",
@@ -3641,7 +3641,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "War gryphon",
         "jpTitle": "エビルホーク",
         "enText": "Precise. On Summon: Draw a card.",
@@ -3653,7 +3653,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Spitegeist",
         "jpTitle": "ヘルゴースト",
         "enText": "This unit does not take damage from battle when attacking from the back column",
@@ -3666,7 +3666,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Black woodchuck",
         "jpTitle": "ブラックチャック",
         "enText": "Cost -1 for the level of Tension your leader has",
@@ -3678,7 +3678,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Baron knight",
         "jpTitle": "バロンナイト",
         "enText": " +1/+1 to other units in the same column",
@@ -3690,7 +3690,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Silhouette",
         "jpTitle": "ホロゴースト",
         "enText": "Stealth",
@@ -3702,7 +3702,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Wyrtle",
         "jpTitle": "ガメゴン",
         "enText": "Forbearance",
@@ -3715,7 +3715,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Martina",
         "jpTitle": "マルティナ",
         "enText": "On Summon: Deal a total of 7 damage to random squares in a column.",
@@ -3728,7 +3728,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Atlas",
         "jpTitle": "アトラス",
         "enText": "On Attack: During this turn, gain attack equal to your leader's attack.",
@@ -3740,7 +3740,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Lightning Storm",
         "jpTitle": "ジゴスパーク",
         "enText": "Special move. Deal 3 damage to all enemy units. Damage +1 for every time your leader attacked this game.",
@@ -3750,7 +3750,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "General mech",
         "jpTitle": "からくりしょうぐん",
         "enText": "On Summon: +1/+1 to your leader's currently equipped weapon.",
@@ -3762,7 +3762,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Pazuzu",
         "jpTitle": "バズズ",
         "enText": "Precise: On Summon: If there is a Block of Ice on your opponent's side of the board, make all enemy units unable to attack next turn.",
@@ -3774,7 +3774,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Goldfinger*",
         "jpTitle": "ゴールドフィンガー",
         "enText": "Seal a unit and deal 6 damage to it.",
@@ -3784,7 +3784,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Carver",
         "jpTitle": "ハッサン",
         "enText": "On Summon: When summoned in the front column, deal 5 damage to an enemy unit 1 square in front of this unit.",
@@ -3797,7 +3797,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dirty rabbit",
         "jpTitle": "ダーティラビッツ",
         "enText": "If the attack target of this unit is the enemy leader, Attack x2",
@@ -3809,7 +3809,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Evil Treant",
         "jpTitle": "エビルトレント",
         "enText": "Set the Attack of all friendly units to be equal to its HP.",
@@ -3821,7 +3821,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Demon steward",
         "jpTitle": "キラーデーモン",
         "enText": "On Summon: Give a friendly unit +1/+1 and Forbearance.",
@@ -3833,7 +3833,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Abacus of Justice*",
         "jpTitle": "せいぎのそろばん",
         "enText": "On Summon: If you have 6 or more other cards in hand, Attack +2",
@@ -3845,7 +3845,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Call Ruffians*",
         "jpTitle": "あらくれ呼び",
         "enText": "Special move. Summon 3 3/1 Ruffians with Haste.",
@@ -3855,7 +3855,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Volpone",
         "jpTitle": "バロンジャッカル",
         "enText": "If you have 6 or more other cards in hand, this card costs -2",
@@ -3867,7 +3867,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "High roller",
         "jpTitle": "ダイス・ド・デビル",
         "enText": "Fortune-telling: (1) Summon a 1/1 Slime. (2) Summon a 4/4 Horse Devil.",
@@ -3879,7 +3879,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "World of Pure Darkness*",
         "jpTitle": "漆黒の世界",
         "enText": " -2/-2 to all units",
@@ -3889,7 +3889,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dhoulmagus",
         "jpTitle": "ドルマゲス",
         "enText": "On Summon: Summon 2 1/1 clones. Whenever your opponent targets Dhoulmagus or a clone, the target is selected randomly.",
@@ -3901,7 +3901,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Haunting Butler*",
         "jpTitle": "タタリ御前",
         "enText": "On Summon: Destroy a random enemy unit that attacked your leader during your enemy's last turn.",
@@ -3914,7 +3914,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Night Clubber",
         "jpTitle": "おにこんぼう",
         "cost": 7,
@@ -3926,7 +3926,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dragstar",
         "jpTitle": "テラノライナー",
         "enText": "Haste",
@@ -3939,7 +3939,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dragonlord",
         "jpTitle": "りゅうおう",
         "enText": "On Death: Reveal True Form. (7/7 Dragonlord with Super Piercing)",
@@ -3951,7 +3951,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Baalzack",
         "jpTitle": "バルザック",
         "enText": "Piercing. Whenever this unit attacks and destroys an enemy unit, gain +2/+2",
@@ -3963,7 +3963,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Great troll",
         "jpTitle": "トロルキング",
         "enText": "All units take 2x Damage",
@@ -3975,7 +3975,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dragon Zombie",
         "jpTitle": "ドラゴンゾンビ",
         "enText": "On Death: Deal 3 damage to all enemy units in front of this unit.",
@@ -3988,7 +3988,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Unholy Bishop",
         "jpTitle": "ブラックルーン",
         "enText": "Skill damage +2",
@@ -4000,7 +4000,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Moosifer",
         "jpTitle": "アンクルホーン",
         "enText": "Tension Link: Attack x2",
@@ -4012,7 +4012,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Sunderbolt blade",
         "jpTitle": "雷鳴の剣",
         "enText": "After whenever your leader attacks, deal 3 damage to a random enemy.",
@@ -4024,7 +4024,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Kaboom",
         "jpTitle": "イオナズン",
         "enText": "Deal 3 damage to all enemy units.",
@@ -4034,7 +4034,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Archdemon",
         "jpTitle": "アークデーモン",
         "enText": "On Summon: Deal 3 damage to all enemy units in the front column.",
@@ -4046,7 +4046,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Thwack",
         "jpTitle": "ザラキ",
         "enText": "Destroy all enemy units in target column.",
@@ -4056,7 +4056,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Belial",
         "jpTitle": "ベリアル",
         "enText": "On Summon: Deal 2 damage to all enemy units. Heal your leader equal to 2x the number of units destroyed.",
@@ -4068,7 +4068,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Cheiron's Bow",
         "jpTitle": "ケイロンの弓",
         "enText": "Precise. Each time after your leader attacks, heal all friendly units by 1 HP. Your leader doesn't take battle damage.",
@@ -4080,7 +4080,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Octo Helmet",
         "jpTitle": "タコメット",
         "enText": "Piercing. On Summon: If you have 6 or more other cards in hand, summon 2 Octo Helmets.",
@@ -4092,7 +4092,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Juliante",
         "jpTitle": "ジュリアンテ",
         "enText": "Fortune-telling: (1) +2/+2 to all friendly units. (2) 3 random enemies cannot attack next turn.",
@@ -4104,7 +4104,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dullahan",
         "jpTitle": "デュラハーン",
         "enText": "On Summon: Summon a (random*) 3 cost unit from your deck.",
@@ -4117,7 +4117,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Rhinocerex",
         "jpTitle": "ライノスキング",
         "enText": "Forbearance.",
@@ -4129,7 +4129,7 @@
         "rarity": 0
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Underworld Lightning*",
         "jpTitle": "魔界の雷",
         "enText": "Deal 2 damage to an enemy unit. If it destroys target unit, summon 3 Psaro Knights.",
@@ -4139,7 +4139,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Baramos",
         "jpTitle": "バラモス",
         "enText": "Skill Damage +3. On Death: The next unit you play costs -4",
@@ -4151,7 +4151,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Great Dragon",
         "jpTitle": "グレイトドラゴン",
         "enText": "On Summon: +1/+1 for every Dragon Family card in hand besides this one.",
@@ -4164,7 +4164,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Marquis de Léon",
         "jpTitle": "キングレオ",
         "enText": "Haste",
@@ -4176,7 +4176,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Überkilling machine",
         "jpTitle": "キラーマジンガ",
         "enText": "Can attack twice. On Summon: If you have 6 or more other cards in hand, deal 2 damage to a random enemy 4 times.",
@@ -4188,7 +4188,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Cataclysm*",
         "jpTitle": "天変地異",
         "enText": "Special Move. Your leader enters Super Concentration mode. Deal 3 damage to a random enemy unit 4 times.",
@@ -4198,7 +4198,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Tarot: The Devil*",
         "jpTitle": "悪魔のタロット",
         "enText": "Fortune-telling: (1) Deal 4 damage to all enemy units. (2) Summon 2 4/4 Horse Devils",
@@ -4208,7 +4208,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gnumesis",
         "jpTitle": "デスゴーゴン",
         "enText": "Whenever this unit attacks and destroys an enemy unit, deal excess damage to the enemy leader. (Trample)",
@@ -4220,7 +4220,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Schwartzschultz*",
         "jpTitle": "シュバルツシュルト",
         "enText": "On Summon: Draw a card for every other friendly follower on the board.",
@@ -4232,7 +4232,7 @@
         "rarity": 1
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Malroth",
         "jpTitle": "シドー",
         "enText": "On Summon: Deal 4 damage to all units besides this one.",
@@ -4244,7 +4244,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Zoma",
         "jpTitle": "ゾーマ",
         "enText": "On Summon: Gains a Cloak of Darkness. Place an Orb of Light at the top of your opponent's deck.",
@@ -4256,7 +4256,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Gracos",
         "jpTitle": "グラコス",
         "enText": "On Summon: Summon 3 Allies. (see \"Tokens\")",
@@ -4268,7 +4268,7 @@
         "rarity": 3
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Bones of Baramos",
         "jpTitle": "バラモスゾンビ",
         "enText": "Gains Attack equal to the number of Zombie Family units that have died during this game.",
@@ -4281,7 +4281,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Secret of Evolution*",
         "jpTitle": "進化の秘法",
         "enText": "Special Move. Transform leader into Psaro the Manslayer (see \"Tokens\"). Heal your leader by 8 HP.",
@@ -4291,7 +4291,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Dark Matter*",
         "jpTitle": "ダークマター",
         "enText": "Destroy all units",
@@ -4301,7 +4301,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "King Lizard*",
         "jpTitle": "キングリザード",
         "enText": "Decrease the cost of this unit by the number of other Dragon Family cards in your hand and on your side of the board.",
@@ -4314,7 +4314,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Magic Burst",
         "jpTitle": "マダンテ",
         "enText": "Special Move. Deal 6 damage to all enemies.",
@@ -4324,7 +4324,7 @@
         "rarity": 2
     },
     {
-        "id": 0,
+        "id": null,
         "enTitle": "Zeldorado*",
         "jpTitle": "ゼルドラド",
         "enText": "On Summon: Attack +2 to all other friendly units. Attack -2 to all enemy units.",
