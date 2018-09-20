@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>{{displayTitle}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-card *ngFor="let card of cards">
+        <ion-card-header>{{card.enTitle}}</ion-card-header>
+    </ion-card>
+</ion-content>

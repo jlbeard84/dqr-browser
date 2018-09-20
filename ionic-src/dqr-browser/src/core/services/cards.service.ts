@@ -4,7 +4,7 @@ import { Observable } from 'rxjs/Observable';
 
 import { DQRCard } from '../models';
 
-const cardDataPath: string = './data/cards.json';
+const cardDataPath: string = './assets/data/cards.json';
 
 @Injectable()
 export class CardsService {
@@ -21,6 +21,11 @@ export class CardsService {
     }
 
     public getImagePath(card: DQRCard): string {
-        return `./assets/cards/${card.id}.png`;
+        if (card.id) {
+            return `./assets/cards/${card.id}.png`;
+        }
+
+        return `./assets/common/standard-back.png`;
+        
     }
 }

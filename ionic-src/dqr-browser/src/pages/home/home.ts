@@ -8,7 +8,11 @@ import { Base } from '../../core';
 })
 export class HomePage extends Base.DQRBasePage {
 
-  public pageTitle: string = "Home";
+  public static PAGE_NAME: string = "Home";
+
+  public get pageTitle(): string {
+    return HomePage.PAGE_NAME;
+  }
 
   constructor(public navCtrl: NavController) {
     super();

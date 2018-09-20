@@ -1,9 +1,11 @@
 export abstract class DQRBasePage {
 
-    public readonly appTitle: string = "DQR Browser";
-    public abstract pageTitle: string;
+    public static APP_NAME: string = "DQR Browser"
+
+    public readonly appTitle: string = DQRBasePage.APP_NAME;
+    public abstract get pageTitle(): string;
 
     public get displayTitle(): string {
-        return `${this.appTitle} - ${this.pageTitle}`;
+        return `${this.pageTitle}`;
     }
 }
