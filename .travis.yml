@@ -15,3 +15,11 @@ before_script:
 
 script: 
   - ionic cordova build browser --prod
+
+before_deploy:
+  - cd platforms/browser/www
+
+deploy:
+  provider: firebase
+  token:
+      secure: "R7O04wnRPvZqJ0fxvwEW4cmxNy04ZHbGfUrVAZCyfyWUek4N5YPjf5VNpwFOvW3e8z6cLxfbeXiccFb5fRhFhNJGwKqH/DDtsObC2C+zZLAapLUM5/e8wpoPfVCympPpT862+kQWyuvZ31Sg3/llU3iqs88lpEGNy+6F60jOMbWfewaW/piapHGpx/+J+JmsXHATT/5OvQ8FxCdaDgaIUI53NdqyODxbrFZKBVbnWote56OmPTd8kn6zWiHvGV83DpJCAVRSPmsNl9GCNLfsiGGospHm+L87dG1Bg1WhD1BLOvKfCkN5Kj4zkz3OvBieECqHlHiCqlN09ZvCqxS6PoMLn1Q3oGjy1Gv06Ya1S5tvzX3BAGXJdB0taj7DJ9HLDQKWsoho6iz5hcc16HXhw3z9AulYwZfP0ktzKvkT9/D1DhC/KL0uTLyHyRuziVbbQgR0mbemkBvw0wzbJAwbax4bVmgFSNAThFrbwOdZDaBoNup+p6L1ALeLrzQ/OKlnYzUoAH6GLOjZz50iP0r+a3+OhhrV8123ML5cTP0I/+Iuomd2EV2GfSDpV+L9GlgJPKlUFmqMCshKwwXrsX2cVZlhpn4VSJj7uxkG+oZEYO61cmRe4PzkVJeEd4b0Wh9t/uMq6lImM/7j+Lj22iScsxvEdUm3aW9EbSBcaCE7SDg="
