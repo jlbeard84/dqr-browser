@@ -4,7 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import * as Pages from "../pages";
-import { Base } from '../core';
+import { DQRBasePage } from '../core/base';
 
 @Component({
   templateUrl: 'app.html'
@@ -18,7 +18,7 @@ export class DQRApp {
   public pages: Array<{title: string, component: any}> = [];
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
-    this.appTitle = Base.DQRBasePage.APP_NAME;
+    this.appTitle = DQRBasePage.APP_NAME;
     this.populatePages();
 
     platform.ready().then(() => {

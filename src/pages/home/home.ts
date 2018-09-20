@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Base } from '../../core';
+import { DQRBasePage } from '../../core/base';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
-export class HomePage extends Base.DQRBasePage {
+export class HomePage extends DQRBasePage {
 
   public static PAGE_NAME: string = "Home";
 

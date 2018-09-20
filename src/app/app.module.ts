@@ -6,17 +6,17 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { HttpClientModule } from '@angular/common/http';
 
 import { DQRApp } from './app.component';
-import { Pipes, Services } from "../core";
+import { CardClassPipe, CardTypePipe } from "../core/pipes";
+import { CardsService, DeckService } from "../core/services";
 import * as Pages from "../pages";
-
 
 @NgModule({
   declarations: [
     DQRApp,
     Pages.HomePage,
     Pages.CardBrowserPage,
-    Pipes.CardClassPipe,
-    Pipes.CardTypePipe
+    CardClassPipe,
+    CardTypePipe
   ],
   imports: [
     BrowserModule,
@@ -34,8 +34,8 @@ import * as Pages from "../pages";
   providers: [
     StatusBar,
     SplashScreen,
-    Services.CardsService,
-    Services.DeckService,
+    CardsService,
+    DeckService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

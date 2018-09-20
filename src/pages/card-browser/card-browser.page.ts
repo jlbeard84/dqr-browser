@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { Base } from "../../core";
+import { DQRBasePage } from "../../core/base";
 import { CardsService } from "../../core/services";
 import { DQRCard } from "../../core/models";
 
@@ -7,7 +7,7 @@ import { DQRCard } from "../../core/models";
     selector: 'page-card-browser',
     templateUrl: 'card-browser.page.html'
   })
-export class CardBrowserPage extends Base.DQRBasePage {
+export class CardBrowserPage extends DQRBasePage {
 
     public static PAGE_NAME: string = "Card Browser";
     public showImages: boolean = true;
