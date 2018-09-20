@@ -1,0 +1,17 @@
+page-card-browser {
+    ion-card.card.dqr-card {
+        ion-item.card-title {
+            background-color:$card-title-background;
+
+            ion-label {
+                h2.en-title {
+                    font-weight:600;
+                }
+
+                p.jp-title {
+                    padding-left:1em;
+                }
+            }
+        }
+    }
+}
