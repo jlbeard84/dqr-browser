@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 
-import { Card } from '../';
+import { DQRCard } from '../models';
 
-const cardDataPath: string = './data/cards.json';
+const cardDataPath: string = './assets/data/cards.json';
 
 @Injectable()
 export class CardsService {
@@ -13,14 +13,19 @@ export class CardsService {
         private http: HttpClient) {
     }
 
-    public getCards(): Observable<Card[]> {
+    public getCards(): Observable<DQRCard[]> {
 
         return this
             .http
-            .get<Card[]>(cardDataPath);
+            .get<DQRCard[]>(cardDataPath);
     }
 
-    public getImagePath(card: Card): string {
-        return `./assets/cards/${card.id}.png`;
+    public getImagePath(card: DQRCard): string {
+        if (card.id) {
+            return `./assets/cards/${card.id}.png`;
+        }
+
+        return `./assets/common/standard-back.png`;
+        
     }
 }
