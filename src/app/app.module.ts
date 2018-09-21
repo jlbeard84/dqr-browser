@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { HttpClientModule } from '@angular/common/http';
 
 import { DQRApp } from './app.component';
-import { CardClassPipe, CardTypePipe } from "../core/pipes";
+import { CardClassPipe, CardSkillPipe, CardTypePipe } from "../core/pipes";
 import { CardsService, DeckService } from "../core/services";
 import * as Pages from "../pages";
 
@@ -15,7 +15,9 @@ import * as Pages from "../pages";
     DQRApp,
     Pages.HomePage,
     Pages.CardBrowserPage,
+    Pages.CardDetailPage,
     CardClassPipe,
+    CardSkillPipe,
     CardTypePipe
   ],
   imports: [
@@ -30,6 +32,7 @@ import * as Pages from "../pages";
     DQRApp,
     Pages.HomePage,
     Pages.CardBrowserPage,
+    Pages.CardDetailPage
   ],
   providers: [
     StatusBar,
