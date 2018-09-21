@@ -17,5 +17,9 @@ page-card-browser {
         div.card-image {
             padding:1.2em;
         }
+
+        ion-card-content.card-content {
+            padding:0;
+        }
     }
 }

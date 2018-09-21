@@ -1,7 +1,10 @@
 import { Component } from "@angular/core";
+import { NavController } from "ionic-angular";
+
 import { DQRBasePage } from "../../core/base";
 import { CardsService } from "../../core/services";
 import { DQRCard } from "../../core/models";
+import { CardDetailPage } from "../card-detail/card-detail.page";
 
 @Component({
     selector: 'page-card-browser',
@@ -20,13 +23,22 @@ export class CardBrowserPage extends DQRBasePage {
     }
 
     constructor(
-        private cardsService: CardsService) { 
+        private cardsService: CardsService,
+        private navController: NavController) { 
         super();
 
         this.cardsService.getCards().subscribe((cards: DQRCard[]) => {
             this.cardMasterList = [...cards];
             this.cards = cards;
         })
+    }
+
+    public openDetail(card: DQRCard): void {
+        this.navController.push(
+            CardDetailPage,
+            {
+                card: card
+            });
     }
 
     public getImagePath(card: DQRCard): string {
