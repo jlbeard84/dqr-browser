@@ -16,6 +16,9 @@ before_script:
 script: 
   - ionic cordova build browser --prod --verbose
 
+before_deploy:
+  - rm .gitignore
+
 deploy:
   provider: firebase
   on: 
