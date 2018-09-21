@@ -21,5 +21,12 @@ page-card-browser {
         ion-card-content.card-content {
             padding:0;
         }
+
+        ion-row.card-footer {
+            ion-col {
+                display:flex;
+                justify-content: space-between;
+            }
+        }
     }
 }

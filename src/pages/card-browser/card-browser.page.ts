@@ -1,9 +1,9 @@
 import { Component } from "@angular/core";
-import { NavController } from "ionic-angular";
+import { NavController, NavParams, ToastController } from "ionic-angular";
 
 import { DQRBasePage } from "../../core/base";
-import { CardsService } from "../../core/services";
-import { DQRCard } from "../../core/models";
+import { CardsService, DeckService } from "../../core/services";
+import { DQRCard, Deck } from "../../core/models";
 import { CardDetailPage } from "../card-detail/card-detail.page";
 
 @Component({
@@ -13,19 +13,33 @@ import { CardDetailPage } from "../card-detail/card-detail.page";
 export class CardBrowserPage extends DQRBasePage {
 
     public static PAGE_NAME: string = "Card Browser";
+    public static ADD_CARD_DECK_NAME: string = "Add Cards"
     public showImages: boolean = true;
 
     public cardMasterList: DQRCard[] = [];
     public cards: DQRCard[] = [];
+    public deck: Deck = null;
 
     public get pageTitle(): string {
-      return CardBrowserPage.PAGE_NAME;
+        if (!this.deck) {
+            return CardBrowserPage.PAGE_NAME;
+        }
+
+        return `${this.deck.name} - ${CardBrowserPage.ADD_CARD_DECK_NAME}`;
     }
 
     constructor(
         private cardsService: CardsService,
-        private navController: NavController) { 
+        private navController: NavController,
+        private navParams: NavParams,
+        private deckService: DeckService,
+        private toastController: ToastController) { 
+
         super();
+
+        if (this.navParams && this.navParams.data && this.navParams.data.deck) {
+            this.deck = this.navParams.data.deck;
+        }
 
         this.cardsService.getCards().subscribe((cards: DQRCard[]) => {
             this.cardMasterList = [...cards];
@@ -39,6 +53,20 @@ export class CardBrowserPage extends DQRBasePage {
             {
                 card: card
             });
+    }
+
+    public addToDeck(card: DQRCard): void {
+        this.deckService.addCard(
+            this.deck,
+            card);
+        
+        const toast = this.toastController.create({
+            message: `${card.enTitle} added to deck`,
+            duration: 1500,
+            position: "top"
+        });
+
+        toast.present();
     }
 
     public getImagePath(card: DQRCard): string {

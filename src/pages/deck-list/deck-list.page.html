@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>{{pageTitle}}</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+<ion-content class="outer-content">
+  <ion-list no-border>
+    <ion-list-header>
+      Decks
+      <button 
+        (click)="addDeck()"
+        ion-button 
+        item-end 
+        outline>New Deck
+      </button>
+    </ion-list-header>
+    <ng-container *ngIf="decks && decks.length > 0">
+      <ion-item *ngFor="let deck of decks" (click)="selectDeck(deck)">
+        <h2>{{deck.name}}</h2>
+        <p>{{deck.cards.length}} cards</p>
+      </ion-item>
+    </ng-container>
+  </ion-list>
+</ion-content>

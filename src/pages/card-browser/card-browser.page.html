@@ -70,6 +70,16 @@
                                     <ion-icon name="resize"></ion-icon>
                                     <div>Details</div>
                                 </button>
+                                <button 
+                                    *ngIf="deck"
+                                    (click)="addToDeck(card)"
+                                    ion-button 
+                                    icon-start 
+                                    clear 
+                                    small>
+                                    <ion-icon name="add"></ion-icon>
+                                    <div>Add Card</div>
+                                </button>
                             </ion-col>
                         </ion-row>
 
