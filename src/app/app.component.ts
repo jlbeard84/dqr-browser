@@ -14,7 +14,7 @@ export class DQRApp {
   @ViewChild(Nav) nav: Nav;
 
   public appTitle: string;
-  public rootPage: any = Pages.HomePage;
+  public rootPage: any = Pages.DeckListPage;
   public pages: Array<{title: string, component: any}> = [];
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
@@ -36,8 +36,8 @@ export class DQRApp {
   private populatePages() {  
     this.pages = [
       {
-        title: Pages.HomePage.PAGE_NAME,
-        component: Pages.HomePage
+        title: Pages.DeckListPage.PAGE_NAME,
+        component: Pages.DeckListPage
       },
       {
         title: Pages.CardBrowserPage.PAGE_NAME,
