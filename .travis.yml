@@ -18,7 +18,8 @@ script:
 
 before_deploy:
   - rm .gitignore
-  - sudo chmod -R 777 platforms
+  - bash scripts/travis-firebase-web-predeploy.sh
+  - cd ./platforms/browser/www
 
 deploy:
   provider: firebase
