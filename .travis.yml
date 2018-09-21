@@ -16,12 +16,6 @@ before_script:
 script: 
   - ionic cordova build browser --prod --verbose
 
-before_deploy:
-  - bash scripts/travis-firebase-web-predeploy.sh
-  - cd platforms/browser/www
-  - echo $PWD
-  - echo *
-
 deploy:
   provider: firebase
   on: 
