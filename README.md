@@ -7,22 +7,15 @@ This project is to serve as an English language assistant to players wanting to 
 ## Getting started
 
 Prerequesites are:
-- Node
+- Node (8.9.4 +)
+- Ionic CLI (3.19.1 +)
 
-Install dependencies with `npm install`
+Project dependencies should be installed with `npm install`
 
 ## Development server
 
-Run test server with `ng serve`
+Run test server with `ionic serve`
 
 ## Building
 
-Generate a build with `ng build`. Deployable build artifacts will be output to /dist.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Generate a build with `ionic cordova build browser`. Deployable build artifacts will be output to /platforms/browser/www.
