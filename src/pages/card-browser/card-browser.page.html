@@ -45,19 +45,29 @@
                 col-lg-2
                 col-xl-2
                 *ngFor="let card of cards">
-                <ion-card class="dqr-card">
-                    <ion-item class="card-title">
-                        <h2 class="en-title">{{card.enTitle}}</h2>
-                        <p class="jp-title">{{card.jpTitle}}</p>
+
+                <ion-card class="dqr-card" (click)="openDetail(card)">
+
+                    <ion-item class="card-details">
+                        <div class="card-image" *ngIf="showImages" item-start>
+                            <img 
+                                [src]="getImagePath(card)" 
+                                [alt]="card.enTitle"/>
+                        </div>
+
+                        <div class="card-title">
+                            <h2 class="en-title">{{card.enTitle}}</h2>
+                            <p class="jp-title">{{card.jpTitle}}</p>
+                        </div>
                     </ion-item>
 
-                    <div class="card-image" *ngIf="showImages">
+                    <!-- <div class="card-image" >
                         <img 
                             [src]="getImagePath(card)" 
                             [alt]="card.enTitle"/>
-                    </div>
+                    </div> -->
 
-                    <ion-card-content>
+                    <!-- <ion-card-content>
 
                         <ion-row class="card-footer">
                             <ion-col>
@@ -83,7 +93,7 @@
                             </ion-col>
                         </ion-row>
 
-                    </ion-card-content>
+                    </ion-card-content> -->
 
                 </ion-card>
             </ion-col>
