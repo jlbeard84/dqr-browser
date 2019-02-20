@@ -57,6 +57,13 @@ page-card-browser {
         }
     }
 
+    ion-col.display-row {
+        ion-item {
+            width:49%;
+            display:inline-block;
+        }
+    }
+
     ion-card.card.dqr-card {
         ion-item.card-details {
             background-color:$card-title-background;
@@ -84,6 +91,12 @@ page-card-browser {
             padding:0;
             background-color:$card-title-background;
             border-top:1px solid #ccc;
+
+            div.card-description {
+                font-size:.9em;
+                padding:8px;
+                border-bottom: 1px solid #ccc;
+            }
 
             ion-row.card-footer {
                 ion-col {

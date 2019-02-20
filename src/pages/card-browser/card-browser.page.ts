@@ -16,6 +16,7 @@ export class CardBrowserPage extends DQRBasePage {
     public static PAGE_NAME: string = "Card Browser";
     public static ADD_CARD_DECK_NAME: string = "Add Cards"
     public showImages: boolean = false;
+    public showDescription: boolean = false;
     public searchQuery: string = "";
 
     public cardMasterList: DQRCard[] = [];
