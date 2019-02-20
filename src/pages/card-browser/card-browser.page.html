@@ -67,33 +67,19 @@
                             [alt]="card.enTitle"/>
                     </div> -->
 
-                    <!-- <ion-card-content>
+                    <ion-card-content>
 
                         <ion-row class="card-footer">
                             <ion-col>
-                                <button 
-                                    (click)="openDetail(card)"
-                                    ion-button 
-                                    icon-start 
-                                    clear 
-                                    small>
-                                    <ion-icon name="resize"></ion-icon>
-                                    <div>Details</div>
-                                </button>
-                                <button 
-                                    *ngIf="deck"
-                                    (click)="addToDeck(card)"
-                                    ion-button 
-                                    icon-start 
-                                    clear 
-                                    small>
-                                    <ion-icon name="add"></ion-icon>
-                                    <div>Add Card</div>
-                                </button>
+                                <div class="cost">{{card.cost}}</div>
+
+                                <div class="attack" *ngIf="card.attack != null">{{card.attack}}</div>
+
+                                <div class="hp" *ngIf="card.hp != null">{{card.hp}}</div>
                             </ion-col>
                         </ion-row>
 
-                    </ion-card-content> -->
+                    </ion-card-content>
 
                 </ion-card>
             </ion-col>
