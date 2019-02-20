@@ -94,9 +94,9 @@ export class CardBrowserPage extends DQRBasePage {
             }
         });
 
-        filterModal.onDidDismiss().then((data: any) => {
-            if (data && data.filter) {
-                this.filter = data.filter;
+        filterModal.onDidDismiss().then((returnData: any) => {
+            if (returnData && returnData.data && returnData.data.filter) {
+                this.filter = returnData.data.filter;
                 this.runFilter();
             }
         });
