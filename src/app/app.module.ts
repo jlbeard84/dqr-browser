@@ -17,6 +17,7 @@ import * as Pages from "../pages";
     Pages.DeckListPage,
     Pages.CardBrowserPage,
     Pages.CardDetailPage,
+    Pages.CardFilterPage,
     CardClassPipe,
     CardSkillPipe,
     CardTypePipe
@@ -34,7 +35,8 @@ import * as Pages from "../pages";
     DQRApp,
     Pages.DeckListPage,
     Pages.CardBrowserPage,
-    Pages.CardDetailPage
+    Pages.CardDetailPage,
+    Pages.CardFilterPage
   ],
   providers: [
     StatusBar,

@@ -9,19 +9,29 @@
 
 <ion-content padding>
 
-
-
     <ion-grid>
-
-        <ion-row>
+        <ion-row class="control-row">
             <ion-col
                 col-12
-                col-md-8>
-                <ion-searchbar
-                    [showCancelButton]="true"
-                    (ionInput)="onFilterCards($event)"
-                    (ionCancel)="onResetFilter()">
-                </ion-searchbar>
+                col-md-8
+                class="search-col">
+
+                <div class="search-objects">
+                    <ion-searchbar
+                        [showCancelButton]="true"
+                        (ionInput)="onSearchCards($event)"
+                        (ionCancel)="onResetSearch()">
+                    </ion-searchbar>
+                    <ion-icon class="filter-icon" name="funnel" (click)="openFilter()"></ion-icon>
+                </div>
+                <div class="filter-objects" *ngIf="showFilterObjects">
+                    <button class="filter-button" *ngIf="filter.cost.length > 0" (click)="removeCostFilter()">
+                        Cost: 
+                        <span class="filter-item" *ngFor="let cost of filter.cost">
+                            {{cost}}
+                        </span>
+                    </button>
+                </div>
             </ion-col>
             <ion-col
                 col-12

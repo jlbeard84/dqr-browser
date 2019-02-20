@@ -1,0 +1,38 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{displayTitle}}</ion-title>
+
+        <ion-buttons right>
+            <button ion-button (click)="saveFilter()">
+                Filter
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-grid>
+        <ion-row class="cost-row">
+            <ion-col
+                col-12
+                col-md-4
+                class="title-col">
+                Cost
+            </ion-col>
+            <ion-col
+                col-12
+                col-md-8>
+
+                <ng-container *ngFor="let costFilter of costFilterItems">
+                    <button 
+                        class="small-filter-button"
+                        [ngClass]="{'is-selected': costFilter.isActive }"
+                        (click)="onFilterItemClick(costFilter)">
+                        {{costFilter.name}}
+                    </button>
+                </ng-container>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

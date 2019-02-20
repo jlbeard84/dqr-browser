@@ -1,0 +1,27 @@
+page-card-filter {
+    ion-row.cost-row {
+        ion-col.title-col {
+            font-size:1.2em;
+            font-weight:bold;
+        }
+
+        button.small-filter-button {
+            background-color: #333;
+            font-size:1em;
+            padding: 3px 10px;
+            min-width: 20px;
+            border-radius:4px;
+            margin: 3px 0;
+            color: white;
+            text-shadow:
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+
+            &.is-selected {
+                background-color:blue;
+            }
+        }
+    }
+}
