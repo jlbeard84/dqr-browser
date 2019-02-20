@@ -1,49 +1,26 @@
-import { Component, ViewChild } from '@angular/core';
-import { Platform, Nav } from 'ionic-angular';
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+import { Component } from '@angular/core';
 
-import * as Pages from "../pages";
-import { DQRBasePage } from '../core/base';
+import { Platform } from '@ionic/angular';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 @Component({
-  templateUrl: 'app.html'
+  selector: 'app-root',
+  templateUrl: 'app.component.html'
 })
-export class DQRApp {
+export class AppComponent {
+  constructor(
+    private platform: Platform,
+    private splashScreen: SplashScreen,
+    private statusBar: StatusBar
+  ) {
+    this.initializeApp();
+  }
 
-  @ViewChild(Nav) nav: Nav;
-
-  public appTitle: string;
-  public rootPage: any = Pages.CardBrowserPage;
-  public pages: Array<{title: string, component: any}> = [];
-
-  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
-    this.appTitle = DQRBasePage.APP_NAME;
-    this.populatePages();
-
-    platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
-      statusBar.styleDefault();
-      splashScreen.hide();
+  public initializeApp(): void {
+    this.platform.ready().then(() => {
+      this.statusBar.styleDefault();
+      this.splashScreen.hide();
     });
   }
-
-  public openPage(page: { title: string, component: any }) {
-    this.nav.setRoot(page.component);
-  }
-
-  private populatePages() {  
-    this.pages = [
-      // {
-      //   title: Pages.DeckListPage.PAGE_NAME,
-      //   component: Pages.DeckListPage
-      // },
-      {
-        title: Pages.CardBrowserPage.PAGE_NAME,
-        component: Pages.CardBrowserPage
-      }
-    ]
-  }
 }
-

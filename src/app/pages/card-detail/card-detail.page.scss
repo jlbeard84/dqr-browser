@@ -1,0 +1,49 @@
+.card-image {
+    padding:1.2em;
+}
+
+ion-card.dqr-card {
+    ion-card-content {
+        padding:0;
+
+        div.card-title {
+            background-color:var(--app-card-title-background);
+            padding:8px;
+
+            h2.en-title {
+                font-weight:600;
+            }
+
+            p.jp-title {
+                padding-left:1em;
+            }
+        }
+
+        div.card-details {
+            display:flex;
+            flex-direction: column;
+            padding:8px;
+
+            div {
+                display:flex;
+                margin-top:.5em;
+                margin-bottom:.5em;
+                border-top:1px solid var(--app-card-title-background);
+                
+                span {
+                    width: 69%;
+                }
+
+                span.card-detail-title {
+                    font-weight: 600;
+                    padding-right: 2em;
+                    width:30%;
+                }
+
+                &.card-english-text, &.card-jp-text {
+                    margin-top:2em;
+                }
+            }
+        }
+    }
+}

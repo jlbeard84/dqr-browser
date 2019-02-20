@@ -1,0 +1,99 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>{{displayTitle}}</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-grid>
+        <ion-row class="control-row">
+            <ion-col
+                size="12"
+                size-md="8"
+                class="search-col">
+
+                <div class="search-objects">
+                    <ion-searchbar
+                        [showCancelButton]="true"
+                        (ionInput)="onSearchCards($event)"
+                        (ionCancel)="onResetSearch()">
+                    </ion-searchbar>
+                    <ion-icon class="filter-icon" name="funnel" (click)="openFilter()"></ion-icon>
+                </div>
+                <div class="filter-objects" *ngIf="showFilterObjects">
+                    <button class="filter-button" *ngIf="filter.cost.length > 0" (click)="removeCostFilter()">
+                        Cost: 
+                        <span class="filter-item" *ngFor="let cost of filter.cost">
+                            {{cost}}
+                        </span>
+                    </button>
+                </div>
+            </ion-col>
+            <ion-col
+                class="display-row"
+                size="12"
+                size-md="4">
+                
+                <ion-item>
+                    <ion-label>Show Images</ion-label>
+                    <ion-toggle
+                        [(ngModel)]="showImages">
+                    </ion-toggle>
+                </ion-item>
+
+                <ion-item>
+                    <ion-label>Show Descriptions</ion-label>
+                    <ion-toggle
+                        [(ngModel)]="showDescriptions">
+                    </ion-toggle>
+                </ion-item>
+
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col 
+                size="12"
+                size-sm="6"
+                size-md="4"
+                size-lg="3"
+                size-xl="2"
+                *ngFor="let card of cards">
+
+                <ion-card class="dqr-card" (click)="openDetail(card)">
+                    <ion-card-content>
+                        <div class="card-details">
+                                <div class="card-image" *ngIf="showImages" item-start>
+                                    <img 
+                                        [src]="getImagePath(card)" 
+                                        [alt]="card.enTitle"/>
+                                </div>
+        
+                                <div class="card-title">
+                                    <h2 class="en-title">{{card.enTitle}}</h2>
+                                    <p class="jp-title">{{card.jpTitle}}</p>
+                                </div>
+                            </div>
+
+                        <div class="card-description" *ngIf="showDescriptions">
+                            <span>{{card.enText}}</span>
+                        </div>
+
+                        <ion-row class="card-footer">
+                            <ion-col>
+                                <div class="cost">{{card.cost}}</div>
+
+                                <div class="attack" *ngIf="card.attack != null">{{card.attack}}</div>
+
+                                <div class="hp" *ngIf="card.hp != null">{{card.hp}}</div>
+                            </ion-col>
+                        </ion-row>
+
+                    </ion-card-content>
+
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>
