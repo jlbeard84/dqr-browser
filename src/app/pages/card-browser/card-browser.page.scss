@@ -1,0 +1,147 @@
+ion-row.control-row {
+    ion-col.search-col {
+        div.search-objects {
+            display:flex;
+            align-items: center;
+
+            ion-searchbar {
+                width:unset;
+                flex-grow:1;
+                flex-shrink: 0;
+            }
+
+            ion-icon.filter-icon {
+                flex-grow:0;
+                flex-shrink: 1;
+                font-size:2em;
+            }
+        }
+
+        div.filter-objects {
+            button {
+                background-color: #333;
+                font-size:1em;
+                padding: 3px 10px;
+                min-width: 20px;
+                border-radius:4px;
+                margin: 3px 0;
+                color: white;
+                display:flex;
+                align-items: center;
+                text-shadow:
+                    -1px -1px 0 #000,  
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;
+
+                &:hover {
+                    background-color: #444;
+                }
+
+                span.filter-item {
+                    background-color: #666;
+                    border-radius: 50%;
+                    text-align:center;
+                    min-width:20px;
+                    max-width:20px;
+                    min-height:20px;    
+                    max-height:20px;    
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin: 0 3px;
+                }
+            }
+        }
+    }
+}
+
+ion-col.display-row {
+    ion-item {
+        width:49%;
+        display:inline-block;
+    }
+}
+
+ion-card.dqr-card {
+    cursor: pointer;
+
+    ion-card-content.card-content {
+        padding:0;
+        background-color:var(--app-card-title-background);
+
+        div.card-details {
+            display:flex;
+            border-bottom:1px solid #ccc;
+            padding:4px;
+    
+            div.card-image {
+                min-width:30%;
+                max-width:30%;
+                width:30%;
+            }
+    
+            div.card-title {
+                h2.en-title {
+                    font-size:1.1em;
+                    margin-bottom:0;
+                    color: black;
+                }
+    
+                p.jp-title {
+                    margin-top:0;
+                    font-size:.9em;
+                }
+            }
+        }
+
+        div.card-description {
+            font-size:.9em;
+            padding:8px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        ion-row.card-footer {
+            ion-col {
+                display:flex;
+                justify-content: space-between;
+                max-width:25%;
+
+                div.cost, div.attack, div.hp {
+                    color: white;
+                    border-radius:50%;
+                    min-width:26px;
+                    max-width:26px;
+                    min-height:26px;
+                    max-height:26px;
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align:center;
+                    font-weight:bold;
+                    text-shadow:
+                        -1px -1px 0 #000,  
+                        1px -1px 0 #000,
+                        -1px 1px 0 #000,
+                        1px 1px 0 #000;
+                    margin: 0 3px;
+                }
+
+                div.cost {
+                    border: 1px solid var(--app-cost-primary-color);
+                    background: linear-gradient(var(--app-cost-primary-color), var(--app-cost-secondary-color));
+                }
+
+                div.attack {
+                    border: 1px solid var(--app-attack-primary-color);
+                    background: linear-gradient(var(--app-attack-primary-color), var(--app-attack-secondary-color));
+                }
+
+                div.hp {
+                    border: 1px solid var(--app-hp-primary-color);
+                    background: linear-gradient(var(--app-hp-primary-color), var(--app-hp-secondary-color));
+                }
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Copying .firebaserc"
-cp .firebaserc platforms/browser/www/
+cp .firebaserc www/
 
 echo "Copying firebase.json"
-cp firebase.json platforms/browser/www
+cp firebase.json www/
