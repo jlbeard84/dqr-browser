@@ -7,7 +7,8 @@ import { FilterItem } from '../../models/filter-item.model';
 
 @Component({
     selector: 'page-card-filter',
-    templateUrl: 'card-filter.page.html'
+    templateUrl: 'card-filter.page.html',
+    styleUrls: ['card-filter.page.scss']
   })
 export class CardFilterPage extends DQRBasePage {
 

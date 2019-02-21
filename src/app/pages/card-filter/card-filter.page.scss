@@ -5,12 +5,13 @@ ion-row.cost-row {
     }
 
     button.small-filter-button {
+        border: 1px solid #333;
         background-color: #333;
         font-size:1em;
         padding: 3px 10px;
         min-width: 20px;
         border-radius:4px;
-        margin: 3px 0;
+        margin: 3px 3px;
         color: white;
         text-shadow:
             -1px -1px 0 #000,  
@@ -19,7 +20,10 @@ ion-row.cost-row {
             1px 1px 0 #000;
 
         &.is-selected {
-            background-color:blue;
+            border: 1px solid var(--app-cost-primary-color);
+            background: var(--app-cost-primary-color);
+            text-shadow:none;
+            //background: linear-gradient(var(--app-cost-primary-color), var(--app-cost-secondary-color));
         }
     }
 }
