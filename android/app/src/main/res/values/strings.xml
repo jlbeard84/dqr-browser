@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DQR Guide</string>
+    <string name="title_activity_main">DQR Guide</string>
+    <string name="package_name">com.jlbeard.dqrguide</string>
+    <string name="fileprovider_authority">com.jlbeard.dqrguide.fileprovider</string>
+    <string name="custom_url_scheme">com.jlbeard.dqrguide</string>
+</resources>

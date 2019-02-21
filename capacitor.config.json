@@ -1,0 +1,6 @@
+{
+  "appId": "com.jlbeard.dqrguide",
+  "appName": "DQR Guide",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}
