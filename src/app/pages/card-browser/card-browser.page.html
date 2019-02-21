@@ -67,26 +67,27 @@
                                 <div class="card-image" *ngIf="showImages" item-start>
                                     <img 
                                         [src]="getImagePath(card)" 
-                                        [alt]="card.enTitle"/>
+                                        [alt]="card.primaryTitle"/>
                                 </div>
         
                                 <div class="card-title">
-                                    <h2 class="en-title">{{card.enTitle}}</h2>
-                                    <p class="jp-title">{{card.jpTitle}}</p>
+                                    <h2 class="en-title">{{card.primaryTitle}}</h2>
+                                    <p class="jp-title">{{card.secondaryTitle}}</p>
                                 </div>
                             </div>
 
                         <div class="card-description" *ngIf="showDescriptions">
-                            <span>{{card.enText}}</span>
+                            <span [innerHTML]="card.primaryText"></span>
                         </div>
 
                         <ion-row class="card-footer">
                             <ion-col>
                                 <div class="cost">{{card.cost}}</div>
 
-                                <div class="attack" *ngIf="card.attack != null">{{card.attack}}</div>
-
-                                <div class="hp" *ngIf="card.hp != null">{{card.hp}}</div>
+                                <ng-container *ngIf="card.cardType === 1">
+                                    <div class="attack" *ngIf="card.attack != null">{{card.attack}}</div>
+                                    <div class="hp" *ngIf="card.hp != null">{{card.hp}}</div>
+                                </ng-container>
                             </ion-col>
                         </ion-row>
 
