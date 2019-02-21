@@ -36,7 +36,7 @@ export class CardDetailPage extends DQRBasePage implements OnInit {
         }
 
         this.detailCard = this.cardsService.currentCard;
-        this._pageTitle = this.detailCard.enTitle;
+        this._pageTitle = this.detailCard.primaryTitle;
         this.showDetailCard = true;
     }
 

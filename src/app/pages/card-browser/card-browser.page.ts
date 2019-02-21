@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NavController, NavParams, ModalController } from '@ionic/angular';
 
 import { DQRBasePage } from '../../base';
@@ -6,13 +6,14 @@ import { CardsService } from '../../services';
 import { DQRCard, Deck, CardFilter } from '../../models';
 import { CardDetailPage } from '../card-detail/card-detail.page';
 import { CardFilterPage } from '../card-filter/card-filter.page';
+import { CardType } from 'src/app/enums';
 
 @Component({
     selector: 'page-card-browser',
     templateUrl: 'card-browser.page.html',
     styleUrls: [ 'card-browser.page.scss' ]
   })
-export class CardBrowserPage extends DQRBasePage {
+export class CardBrowserPage extends DQRBasePage implements OnInit {
 
     public static ROUTE: string = 'card-browser';
     public static PAGE_NAME: string = 'DQ Rivals Card Browser';
@@ -49,11 +50,12 @@ export class CardBrowserPage extends DQRBasePage {
         private modalController: ModalController) {
 
         super();
+    }
 
-        this.cardsService.getCards().subscribe((cards: DQRCard[]) => {
-            this.cardMasterList = [...cards];
-            this.cards = cards;
-        });
+    public async ngOnInit(): Promise<void> {
+        const cards = await this.cardsService.getCards();
+        this.cardMasterList = [...cards];
+        this.cards = [...cards];
     }
 
     public runFilter(): void {
