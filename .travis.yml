@@ -2,9 +2,8 @@ dist: trusty
 sudo: false
 
 branches:
-  only:
-    - master
-    - GHPagesDeploy
+  except:
+    - gh-pages
 
 language: node_js
 node_js:
@@ -22,4 +21,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: www/
   on:
-    branch: GHPagesDeploy
+    branch: master
